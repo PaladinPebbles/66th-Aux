@@ -142,8 +142,8 @@ class PB_Commando_Helmet : PB_Spartan_Helmet_Base
     };
     hiddenSelectionsTextures[] =
     {
-        "F66th_Armor\data\Helmets\Commando\Commando_CO.paa",
-        "F66th_Armor\data\Helmets\Commando\Commando_Visor_CO.paa"
+        "F66th_Armor\Hellwalkers\Helmets\Base\Commando_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Base\Commando_Visor_CO.paa"
     };
     class ItemInfo : ItemInfo
     {
@@ -168,8 +168,8 @@ class PB_CQC_Helmet : PB_Spartan_Helmet_Base
     };
     hiddenSelectionsTextures[] =
     {
-        "F66th_Armor\data\Helmets\CQC\CQC_CO.paa",
-        "F66th_Armor\data\Helmets\CQC\CQC_Visor_CO.paa"
+        "F66th_Armor\Hellwalkers\Helmets\Base\CQC_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Base\CQC_Visor_CO.paa"
     };
     class ItemInfo : ItemInfo
     {
@@ -190,13 +190,13 @@ class PB_M56Eod_Helmet: PB_Helmet_Base
     picture="\F66th_Armor\data\Icons\F66th.paa"; 
     hiddenSelectionsTextures[]=
     {
-        "F66th_Armor\data\Helmets\EOD\EOD_co.paa",
-        "F66th_Armor\data\Helmets\EOD\EOD_Visor_co.paa"
+        "F66th_Armor\Hellwalkers\Helmets\Base\EOD\EOD_co.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Base\EOD_Visor_co.paa"
     };
     class XtdGearInfo
     {
-        model = "PB_Base_Helmets";
-        Variant = "H3 EOD"
+        model = "PB_Unused";
+        Variant = "H3EOD"
     };
     class ItemInfo: ItemInfo
     {
@@ -216,8 +216,8 @@ class PB_HREOD_Helmet : PB_Spartan_Helmet_Base
     };
     hiddenSelectionsTextures[] =
     {
-        "F66th_Armor\data\Helmets\Eod_R\EOD_R_CO.paa",
-        "F66th_Armor\data\Helmets\Eod_R\EOD_R_Visor_CO.paa"
+        "F66th_Armor\Hellwalkers\Helmets\Base\EOD_R_CO.paa",
+        "F66th_Armor\dHellwalkers\Helmets\Base\EOD_R_Visor_CO.paa"
     };
     class ItemInfo : ItemInfo
     {
@@ -242,8 +242,8 @@ class PB_EVA_Helmet : PB_Spartan_Helmet_Base
     };
     hiddenSelectionsTextures[] =
     {
-        "F66th_Armor\data\Helmets\EVA\EVA_CO.paa",
-        "F66th_Armor\data\Helmets\EVA\EVA_Visor_CO.paa"
+        "F66th_Armor\Hellwalkers\Helmets\Base\EVA_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Base\EVA_Visor_CO.paa"
     };
     class ItemInfo : ItemInfo
     {
@@ -268,8 +268,8 @@ class PB_Grenadier_Helmet : PB_Spartan_Helmet_Base
     };
     hiddenSelectionsTextures[] =
     {
-        "F66th_Armor\data\Helmets\Grenadier\Grenadier_CO.paa",
-        "F66th_Armor\data\Helmets\Grenadier\Grenadier_Visor_CO.paa"
+        "F66th_Armor\Hellwalkers\Helmets\Base\Grenadier_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Base\Grenadier_Visor_CO.paa"
     };
     class ItemInfo : ItemInfo
     {
@@ -295,7 +295,7 @@ class PB_Gungnir_Helmet : PB_Spartan_Helmet_Base
     };
     hiddenSelectionsTextures[] =
     {
-        "F66th_Armor\data\Helmets\Gungnir\Gungnir_Helmet_CO.paa"
+        "F66th_Armor\Hellwalkers\Helmets\Base\Gungnir_Helmet_CO.paa"
     };
     class ItemInfo : ItemInfo
     {
@@ -318,12 +318,12 @@ class PB_HRODST_Helmet:PB_Helmet_Base
     class XtdGearInfo
     {
         model="PB_Base_Helmets";
-        Variant = "HR ODST"
+        Variant = "ODST"
     };
     hiddenSelectionsTextures[]=
     {
-        "F66th_Armor\data\Helmets\HR_ODST\HR_ODST_Helmet_CO.paa",
-        "F66th_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_co.paa"
+        "F66th_Armor\Hellwalkers\Helmets\Base\HR_ODST_Helmet_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Base\HR_ODST_Visor_co.paa"
     };
     class ItemInfo: ItemInfo
     {
@@ -343,8 +343,8 @@ class PB_JFO_Helmet : PB_Spartan_Helmet_Base
     };
     hiddenSelectionsTextures[] =
     {
-        "F66th_Armor\data\Helmets\JFO\JFO_CO.paa",
-        "F66th_Armor\data\Helmets\JFO\JFO_Visor_CO.paa"
+        "F66th_Armor\Hellwalkers\Helmets\Base\JFO_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Base\JFO_Visor_CO.paa"
     };
     class ItemInfo : ItemInfo
     {
@@ -369,8 +369,8 @@ class PB_MP_Helmet : PB_Spartan_Helmet_Base
     };
     hiddenSelectionsTextures[] =
     {
-        "F66th_Armor\data\Helmets\MP\MP_CO.paa",
-        "F66th_Armor\data\Helmets\MP\MP_Visor_CO.paa"
+        "F66th_Armor\Hellwalkers\Helmets\Base\MP_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Base\MP_Visor_CO.paa"
     };
     class ItemInfo : ItemInfo
     {
@@ -395,8 +395,8 @@ class PB_Pilot_Helmet : PB_Spartan_Helmet_Base
     };
     hiddenSelectionsTextures[] =
     {
-        "F66th_Armor\data\Helmets\Pilot\Pilot_CO.paa",
-        "F66th_Armor\data\Helmets\Pilot\Pilot_Visor_CO.paa"
+        "F66th_Armor\Hellwalkers\Helmets\Base\Pilot_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Base\Pilot_Visor_CO.paa"
     };
     class ItemInfo : ItemInfo
     {
@@ -421,8 +421,8 @@ class PB_Recon_Helmet : PB_Spartan_Helmet_Base
     };
     hiddenSelectionsTextures[] =
     {
-        "F66th_Armor\data\Helmets\Recon\Recon_CO.paa",
-        "F66th_Armor\data\Helmets\Recon\Recon_Visor_CO.paa"
+        "F66th_Armor\Hellwalkers\Helmets\Base\Recon_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Base\Recon_Visor_CO.paa"
     };
     class ItemInfo : ItemInfo
     {
@@ -447,8 +447,8 @@ class PB_Scout_Helmet : PB_Spartan_Helmet_Base
     };
     hiddenSelectionsTextures[] =
     {
-        "F66th_Armor\data\Helmets\H4_Scout\Scout_CO.paa",
-        "F66th_Armor\data\Helmets\H4_Scout\Scout_Visor_CO.paa"
+        "F66th_Armor\Hellwalkers\Helmets\Base\Scout_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Base\Scout_Visor_CO.paa"
     };
     class ItemInfo : ItemInfo
     {
@@ -456,8 +456,8 @@ class PB_Scout_Helmet : PB_Spartan_Helmet_Base
     };
     class XtdGearInfo
     {
-        model = "PB_Base_Helmets";
-        Variant = "H4 Scout"
+        model = "PB_Unused";
+        Variant = "H4Scout"
     };
 };
 class PB_Reach_Scout_Helmet : PB_Spartan_Helmet_Base
@@ -473,8 +473,8 @@ class PB_Reach_Scout_Helmet : PB_Spartan_Helmet_Base
     };
     hiddenSelectionsTextures[] =
     {
-        "F66th_Armor\data\Helmets\Scout_R\Scout_CO.paa",
-        "F66th_Armor\data\Helmets\Scout_R\Scout_Visor_CO.paa"
+        "F66th_Armor\Hellwalkers\Helmets\Base\Scout_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Base\Scout_Visor_CO.paa"
     };
     class ItemInfo : ItemInfo
     {
@@ -483,7 +483,7 @@ class PB_Reach_Scout_Helmet : PB_Spartan_Helmet_Base
     class XtdGearInfo
     {
         model = "PB_Base_Helmets";
-        Variant = "HR Scout"
+        Variant = "Scout"
     };
 };
 class PB_SPI_Helmet : PB_Spartan_Helmet_Base
@@ -499,8 +499,8 @@ class PB_SPI_Helmet : PB_Spartan_Helmet_Base
     };
     hiddenSelectionsTextures[] =
     {
-        "F66th_Armor\data\Helmets\SPI\SPI_CO.paa",
-        "F66th_Armor\data\Helmets\SPI\SPI_Visor_CO.paa"
+        "F66th_Armor\Hellwalkers\Helmets\Base\SPI_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Base\SPI_Visor_CO.paa"
     };
     class ItemInfo : ItemInfo
     {
@@ -508,9 +508,9 @@ class PB_SPI_Helmet : PB_Spartan_Helmet_Base
     };
     class XtdGearInfo
     {
-        model = "PB_Base_Helmets";
+        model = "PB_Unused";
         Variant = "SPI"
-    }
+    };
 };
 class PB_CH252_Helmet_Base: PB_Helmet_Base
 {
@@ -542,15 +542,15 @@ class PB_CH252_Helmet_Base: PB_Helmet_Base
     };
     hiddenSelectionsTextures[]=
     {
-        "F66th_Armor\data\Innies\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-        "F66th_Armor\data\Innies\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-        "F66th_Armor\data\Innies\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-        "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
-        "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
-        "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
-        "F66th_Armor\data\Innies\Helmet\VaccumCollar\Base\VacSeal_Base_CO.paa",
-        "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
-        "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+        "F66th_Armor\OtherFactions\RedSea\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+        "F66th_Armor\OtherFactions\RedSea\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+        "F66th_Armor\OtherFactions\RedSea\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+        "F66th_Armor\OtherFactions\RedSea\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+        "F66th_Armor\OtherFactions\RedSea\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+        "F66th_Armor\OtherFactions\RedSea\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+        "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
     };
     class ItemInfo: ItemInfo
     {
@@ -589,7 +589,162 @@ class PB_CH252_Helmet_Base: PB_Helmet_Base
             "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
         };
     };
+    class XtdGearInfo
+    {
+        model = "PB_Base_Helmets";
+        Variant = "Marine"
+    };
 };
+
+/// Abbadon
+class PB_HREOD_Helmet_Abbadon : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Abbadon EOD";
+    model = "MA_Armor\data\Helmets\HR_EOD\HR_EOD_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Abbadon\Abbadon_EOD_R_CO.paa",
+        "F66th_Armor\dHellwalkers\Helmets\Abbadon\Abbadon_EOD_R_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\HR_EOD\HR_EOD_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Abbadon_Helmets";
+        Variant = "HR EOD"
+    };
+};
+class PB_EVA_Helmet_Abbadon : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] EVA";
+    model = "MA_Armor\data\Helmets\EVA\EVA_Helmet.p3d";
+        hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Abbadon\Abbadon_EVA_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Abbadon\Abbadon_EVA_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\EVA\EVA_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Abbadon_Helmets";
+        Variant = "EVA"
+    };
+};
+class PB_Grenadier_Helmet_Abbadon : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Grenadier";
+    model = "MA_Armor\data\Helmets\Grenadier\Grenadier_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Abbadon\Abbadon_Grenadier_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Abbadon\Abbadon_Grenadier_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Grenadier\Grenadier_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Abbadon_Helmets";
+        Variant = "Grenadier"
+    }
+};
+class PB_HRODST_Helmet_Abbadon:PB_Helmet_Base
+{
+    scope=2;
+    scopeArsenal=2;
+    displayName="[F66th] M56S-R Helmet";
+    model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    picture="\PB_Armor\data\Icons\F66th.paa";
+
+    class XtdGearInfo
+    {
+        model="PB_Abbadon_Helmets";
+        Variant = "ODST"
+    };
+    hiddenSelectionsTextures[]=
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Abbadon\Abbadon_HR_ODST_Helmet_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Abbadon\Abbadon_HR_ODST_Visor_co.paa"
+    };
+    class ItemInfo: ItemInfo
+    {
+        uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    };
+};
+class PB_Recon_Helmet_Abbadon : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Recon";
+    model = "MA_Armor\data\Helmets\Recon\Recon_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Abbadon\Abbadon_Recon_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Abbadon\Abbadon_Recon_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Recon\Recon_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Abbadon_Helmets";
+        Variant = "Recon"
+    };
+};
+/// Asmodeus
+
+/// Azazel
+
+/// Belphegor
+
+/// Cerberus
+
+/// Leviathan
+
+/// Lilith
+
+/// Lucifer
+
+/// Mammon
+
+/// SCP
+
+/// Alads Angels
+
+/// Red Sea
 
 //Custom
 class PB_HRODST_Helmet_Ahriman :PB_HRODST_Helmet
