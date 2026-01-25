@@ -1,0 +1,1056 @@
+//Base Helmets
+class PB_Helmet_Base: ItemCore
+{
+    scope=1;
+    scopeArsenal=1;
+    author="F66th Pebbles";
+    ace_hearing_protection=1;
+    ace_hearing_hasEHP = 1;
+    displayName="[F66th] Base Helmet";
+    model="";
+    picture="";
+    hiddenSelections[]=
+    {
+        "camo1",
+        "camo2"
+    };
+    hiddenSelectionsTextures[]={};
+    class ItemInfo: HeadgearItem
+    {
+        uniformModel="";
+        mass=40;
+        modelSides[]={6};
+        allowedSlots[]={801,901,701,605};
+        hiddenSelections[]=
+        {
+            "camo1",
+            "camo2"
+        };
+        hiddenSelectionsTextures[]={};
+        class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=25;
+					passThrough=0.1;
+				};
+				class Face
+				{
+					hitpointName="HitFace";
+					armor=25;
+					passThrough=0.1;
+				};
+				class Neck
+				{
+					hitpointName="HitNeck";
+					armor=20;
+					passThrough=0.1;
+				};
+			};
+    };
+};
+class PB_Spartan_Helmet_Base : ItemCore
+{
+    scope = 1;
+    scopeArsenal = 1;
+    author = "F66th Pebbles";
+    ace_hearing_hasEHP = 1;
+    ace_hearing_protection = 1;
+    displayName = "[F66th] Base Spartan Helmet";
+    model = "";
+    picture = "\PB_Armor\data\Icons\F66th.paa";
+    hiddenSelections[] =
+    {
+        "camo1",
+        "camo2"
+    };
+    hiddenSelectionsTextures[] = {};
+    class ItemInfo : HeadgearItem
+    {
+        uniformModel = "";
+        mass = 50;
+        modelSides[] = { 6 };
+        allowedSlots[] = { 801,901,701,605 };
+        hiddenSelections[] =
+        {
+            "camo1",
+            "camo2"
+        };
+        hiddenSelectionsTextures[] = {};
+        class HitpointsProtectionInfo
+        {
+            class Head
+            {
+                hitpointName = "HitHead";
+                armor = 35;
+                passThrough = 0.1;
+            };
+            class Face
+            {
+                hitpointName = "HitFace";
+                armor = 35;
+                passThrough = 0.1;
+            };
+            class Neck
+            {
+                hitpointName = "HitNeck";
+                armor = 30;
+                passThrough = 0.1;
+            };
+        };
+    };
+};
+
+//Standard Helmets
+class PB_AA_Helmet : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] AA";
+    model = "MA_Armor\data\Helmets\Mjolnir_AA\Mjolnir_AA.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Base\AA_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Base\AA_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Mjolnir_AA\Mjolnir_AA.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Base_Helmets";
+        Variant = "AA"
+    };
+};
+class PB_Commando_Helmet : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Commando";
+    model = "MA_Armor\data\Helmets\Commando\Commando_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\Commando\Commando_CO.paa",
+        "F66th_Armor\data\Helmets\Commando\Commando_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Commando\Commando_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Base_Helmets";
+        Variant = "Commando"
+    };
+};
+class PB_CQC_Helmet : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] CQC";
+    model = "MA_Armor\data\Helmets\CQC\CQC_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\CQC\CQC_CO.paa",
+        "F66th_Armor\data\Helmets\CQC\CQC_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\CQC\CQC_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Base_Helmets";
+        Variant = "CQC"
+    }
+};
+class PB_M56Eod_Helmet: PB_Helmet_Base
+{
+    scope=2;
+    scopeArsenal=2;
+    displayName="[F66th] M56-Eod Helmet";
+    model="MA_Armor\data\Helmets\EOD\EOD_Helmet.p3d";
+    picture="\F66th_Armor\data\Icons\F66th.paa"; 
+    hiddenSelectionsTextures[]=
+    {
+        "F66th_Armor\data\Helmets\EOD\EOD_co.paa",
+        "F66th_Armor\data\Helmets\EOD\EOD_Visor_co.paa"
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Base_Helmets";
+        Variant = "H3 EOD"
+    };
+    class ItemInfo: ItemInfo
+    {
+        uniformModel="MA_Armor\data\Helmets\EOD\EOD_Helmet.p3d";
+    };
+};
+class PB_HREOD_Helmet : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] EOD Reach";
+    model = "MA_Armor\data\Helmets\HR_EOD\HR_EOD_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\Eod_R\EOD_R_CO.paa",
+        "F66th_Armor\data\Helmets\Eod_R\EOD_R_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\HR_EOD\HR_EOD_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Base_Helmets";
+        Variant = "HR EOD"
+    };
+};
+class PB_EVA_Helmet : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] EVA";
+    model = "MA_Armor\data\Helmets\EVA\EVA_Helmet.p3d";
+        hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\EVA\EVA_CO.paa",
+        "F66th_Armor\data\Helmets\EVA\EVA_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\EVA\EVA_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Base_Helmets";
+        Variant = "EVA"
+    };
+};
+class PB_Grenadier_Helmet : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Grenadier";
+    model = "MA_Armor\data\Helmets\Grenadier\Grenadier_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\Grenadier\Grenadier_CO.paa",
+        "F66th_Armor\data\Helmets\Grenadier\Grenadier_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Grenadier\Grenadier_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Base_Helmets";
+        Variant = "Grenadier"
+    }
+};
+class PB_Gungnir_Helmet : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    author = "F66th Pebbles";
+    displayName = "[F66th] Gungnir";
+    model = "MA_Armor\data\Helmets\Gungnir\Gungnir_Helmet.p3d";
+    picture = "\PB_Armor\data\Icons\F66th.paa";
+    hiddenSelections[] =
+    {
+        "Camo1"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\Gungnir\Gungnir_Helmet_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Gungnir\Gungnir_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Base_Helmets";
+        Variant = "Gungnir"
+    };
+};
+class PB_HRODST_Helmet:PB_Helmet_Base
+{
+    scope=2;
+    scopeArsenal=2;
+    displayName="[F66th] M56S-R Helmet";
+    model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    picture="\PB_Armor\data\Icons\F66th.paa";
+
+    class XtdGearInfo
+    {
+        model="PB_Base_Helmets";
+        Variant = "HR ODST"
+    };
+    hiddenSelectionsTextures[]=
+    {
+        "F66th_Armor\data\Helmets\HR_ODST\HR_ODST_Helmet_CO.paa",
+        "F66th_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_co.paa"
+    };
+    class ItemInfo: ItemInfo
+    {
+        uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    };
+};
+class PB_JFO_Helmet : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] JFO";
+    model = "MA_Armor\data\Helmets\JFO\JFO_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\JFO\JFO_CO.paa",
+        "F66th_Armor\data\Helmets\JFO\JFO_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\JFO\JFO_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Base_Helmets";
+        Variant = "JFO"
+    }
+};
+class PB_MP_Helmet : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] MP";
+    model = "MA_Armor\data\Helmets\MP\MP_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\MP\MP_CO.paa",
+        "F66th_Armor\data\Helmets\MP\MP_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\MP\MP_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Base_Helmets";
+        Variant = "MP"
+    };
+};
+class PB_Pilot_Helmet : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Pilot";
+    model = "MA_Armor\data\Helmets\Pilot\Pilot_Helm.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\Pilot\Pilot_CO.paa",
+        "F66th_Armor\data\Helmets\Pilot\Pilot_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Pilot\Pilot_Helm.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Base_Helmets";
+        Variant = "Pilot"
+    }
+};
+class PB_Recon_Helmet : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Recon";
+    model = "MA_Armor\data\Helmets\Recon\Recon_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\Recon\Recon_CO.paa",
+        "F66th_Armor\data\Helmets\Recon\Recon_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Recon\Recon_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Base_Helmets";
+        Variant = "Recon"
+    };
+};
+class PB_Scout_Helmet : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Scout";
+    model = "MA_Armor\data\Helmets\H4_Scout\H4_Scout_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\H4_Scout\Scout_CO.paa",
+        "F66th_Armor\data\Helmets\H4_Scout\Scout_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\H4_Scout\H4_Scout_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Base_Helmets";
+        Variant = "H4 Scout"
+    };
+};
+class PB_Reach_Scout_Helmet : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Reach Scout";
+    model = "MA_Armor\data\Helmets\Scout\HR_Scout_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "camo1",
+        "camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\Scout_R\Scout_CO.paa",
+        "F66th_Armor\data\Helmets\Scout_R\Scout_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Scout\HR_Scout_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Base_Helmets";
+        Variant = "HR Scout"
+    };
+};
+class PB_SPI_Helmet : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] SPI";
+    model = "MA_Armor\data\Helmets\SPI\SPI_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\SPI\SPI_CO.paa",
+        "F66th_Armor\data\Helmets\SPI\SPI_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\SPI\SPI_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Base_Helmets";
+        Variant = "SPI"
+    }
+};
+class PB_CH252_Helmet_Base: PB_Helmet_Base
+{
+    scope=1;
+    scopeArsenal=1;
+    displayName="[F66th] Innie CH252 Helmet";
+    model="MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+    picture=""; //TODO: Update this
+    hiddenSelections[]=
+    {
+        "Camo1", // Helmet
+        "Camo2", // NVG Mount
+        "Camo3", // Helmet Strap
+        "Camo4", // Eye Piece
+        "Camo5", // Eye Piece Glass
+        "Camo6", // Visor Glasses
+        "Camo7", // Vaccum Collar
+        "Camo8", // Helmet Chin
+        "Camo9", // Closed Visor
+        "Helmet",
+        "NVGMount",
+        "HelmetStrap",
+        "EyePiece",
+        "EyePieceGlass",
+        "VisorGlasses",
+        "VaccumCollar",
+        "Helmet_Chin",
+        "Closed_Visor"
+    };
+    hiddenSelectionsTextures[]=
+    {
+        "F66th_Armor\data\Innies\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+        "F66th_Armor\data\Innies\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+        "F66th_Armor\data\Innies\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+        "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+        "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+        "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+        "F66th_Armor\data\Innies\Helmet\VaccumCollar\Base\VacSeal_Base_CO.paa",
+        "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+        "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+    };
+    class ItemInfo: ItemInfo
+    {
+        uniformModel="MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        hiddenSelections[]=
+        {
+            "Camo1", // Helmet
+            "Camo2", // NVG Mount
+            "Camo3", // Helmet Strap
+            "Camo4", // Eye Piece
+            "Camo5", // Eye Piece Glass
+            "Camo6", // Visor Glasses
+            "Camo7", // Vaccum Collar
+            "Camo8", // Helmet Chin
+            "Camo9", // Closed Visor
+            "Helmet",
+            "NVGMount",
+            "HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+        };
+    };
+};
+
+//Custom
+class PB_HRODST_Helmet_Ahriman :PB_HRODST_Helmet
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Ahriman ODST";
+    model = "MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    picture = "\PB_Armor\data\Icons\F66th.paa";
+
+    class XtdGearInfo
+    {
+        model = "PB_Custom_Helmets";
+        Variant = "Ahriman"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\HR_ODST\Custom\Ahriman_ODST_CO.paa",
+        "F66th_Armor\data\Helmets\HR_ODST\Custom\Ahriman_ODST_Visor_co.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    };
+};
+class PB_EVA_Helmet_Blue : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Blue EVA";
+    model = "MA_Armor\data\Helmets\EVA\EVA_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\EVA\Custom\Blue_EVA_CO.paa",
+        "F66th_Armor\data\Helmets\EVA\Custom\Blue_EVA_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\EVA\EVA_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Custom_Helmets";
+        Variant = "Blue"
+    };
+};
+class PB_HRODST_Helmet_Cat :PB_HRODST_Helmet
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Cat ODST";
+    model = "MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    picture = "\PB_Armor\data\Icons\F66th.paa";
+
+    class XtdGearInfo
+    {
+        model = "PB_Custom_Helmets";
+        Variant = "Cat"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\HR_ODST\Custom\Cat_ODST_Helmet_CO.paa",
+        "F66th_Armor\data\Helmets\HR_ODST\Custom\Cat_ODST_Visor_co.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    };
+};
+class PB_Gungnir_Helmet_Chronos : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    author = "F66th Pebbles";
+    displayName = "[F66th] Chronos Gungnir";
+    model = "MA_Armor\data\Helmets\Gungnir\Gungnir_Helmet.p3d";
+    picture = "\PB_Armor\data\Icons\F66th.paa";
+    hiddenSelections[] =
+    {
+        "Camo1"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\Gungnir\Custom\Chronos_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Gungnir\Gungnir_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Custom_Helmets";
+        Variant = "Chronos"
+    };
+};
+class PB_HREOD_Helmet_Fixer : PB_HREOD_Helmet
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Fixer";
+    model = "MA_Armor\data\Helmets\HR_EOD\HR_EOD_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\Eod_R\Custom\Fixer_EOD_R_CO.paa",
+        "F66th_Armor\data\Helmets\Eod_R\Visors\Abbadon_EOD_R_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\HR_EOD\HR_EOD_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Custom_Helmets";
+        Variant = "Fixer"
+    };
+};
+class PB_HRODST_Helmet_Komoto :PB_HRODST_Helmet
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Komoto ODST";
+    model = "MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    picture = "\PB_Armor\data\Icons\F66th.paa";
+
+    class XtdGearInfo
+    {
+        model = "PB_Custom_Helmets";
+        Variant = "Komoto"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\HR_ODST\Custom\Komoto_ODST_Helmet_CO.paa",
+        "F66th_Armor\data\Helmets\HR_ODST\Custom\Komoto_ODST_Visor_co.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    };
+};
+class PB_CH252_Helmet_Navvaro : PB_CH252_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Innie CH252 Helmet";
+    model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+    picture = ""; //TODO: Update this
+    hiddenSelections[] =
+    {
+        "camo1", // Helmet
+        "camo2", // NVG Mount
+        "camo3", // Helmet Strap
+        "camo4", // Eye Piece
+        "camo5", // Eye Piece Glass
+        "camo6", // Visor Glasses
+        "camo7", // Vac Seal
+        "Camo8", // Face Module Chin
+        "Camo9", // Closed Visor
+        //    "Helmet",
+        //    "NVGMount",
+        //    "HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Marines\Helmet\Navvaro_TrooperHelmet_CO.paa",
+        "F66th_Armor\data\Marines\Helmet\Navvaro_TrooperHelmet_CO.paa",
+        "F66th_Armor\data\Marines\Helmet\Navvaro_TrooperHelmet_CO.paa",
+        "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+        "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+        "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+        "F66th_Armor\data\Innies\Helmet\VaccumCollar\Base\VacSeal_Base_CO.paa",
+        "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+        "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eye Piece
+            "camo5", // Eye Piece Glass
+            "camo6", // Visor Glasses
+            "camo7", // Vac Seal
+            "Camo8", // Face Module Chin
+            "Camo9", // Closed Visor
+            //    "Helmet",
+            //    "NVGMount",
+            //    "HelmetStrap"
+                "EyePiece",
+                "EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+        };
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Custom_Helmets";
+        Variant = "Navvaro"
+    };
+};
+class PB_CH252_Helmet_Noble : PB_CH252_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Innie CH252 Helmet";
+    model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+    picture = ""; //TODO: Update this
+    hiddenSelections[] =
+    {
+        "camo1", // Helmet
+        "camo2", // NVG Mount
+        "camo3", // Helmet Strap
+        "camo4", // Eye Piece
+        "camo5", // Eye Piece Glass
+        "camo6", // Visor Glasses
+        "camo7", // Vac Seal
+        "Camo8", // Face Module Chin
+        "Camo9", // Closed Visor
+        //    "Helmet",
+        //    "NVGMount",
+        //    "HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Marines\Helmet\Navvaro_TrooperHelmet_CO.paa",
+        "F66th_Armor\data\Marines\Helmet\Navvaro_TrooperHelmet_CO.paa",
+        "F66th_Armor\data\Marines\Helmet\Navvaro_TrooperHelmet_CO.paa",
+        "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+        "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+        "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+        "F66th_Armor\data\Innies\Helmet\VaccumCollar\Base\VacSeal_Base_CO.paa",
+        "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+        "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eye Piece
+            "camo5", // Eye Piece Glass
+            "camo6", // Visor Glasses
+            "camo7", // Vac Seal
+            "Camo8", // Face Module Chin
+            "Camo9", // Closed Visor
+            //    "Helmet",
+            //    "NVGMount",
+            //    "HelmetStrap"
+                "EyePiece",
+                "EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+        };
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Custom_Helmets";
+        Variant = "Noble"
+    };
+};
+class PB_MP_Helmet_Nyquil : PB_Spartan_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Nyquil MP";
+    model = "MA_Armor\data\Helmets\MP\MP_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\MP\Custom\Nyquil_MP_CO.paa",
+        "F66th_Armor\data\Helmets\MP\Custom\Nyquil_MP_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\MP\MP_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Custom_Helmets";
+        Variant = "Nyquil"
+    };
+};
+class PB_HREOD_Helmet_Pebbles : PB_HREOD_Helmet
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] EOD Pebbles";
+    model = "MA_Armor\data\Helmets\HR_EOD\HR_EOD_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\Eod_R\Custom\Pebbles_EOD_R_CO.paa",
+        "F66th_Armor\data\Helmets\Eod_R\Custom\Pebbles_EOD_R_Visor_CO.paa"
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Custom_Helmets";
+        Variant = "Pebbles"
+    }
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\HR_EOD\HR_EOD_Helmet.p3d";
+    };
+};
+class PB_HRODST_Helmet_Reaper :PB_HRODST_Helmet
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Reaper ODST";
+    model = "MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    picture = "\PB_Armor\data\Icons\F66th.paa";
+
+    class XtdGearInfo
+    {
+        model = "PB_Custom_Helmets";
+        Variant = "Reaper"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\HR_ODST\Custom\Reaper_ODST_Helmet_CO.paa",
+        "F66th_Armor\data\Helmets\HR_ODST\Custom\Reaper_ODST_Visor_co.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    };
+};
+class PB_JFO_Helmet_Revan : PB_JFO_Helmet
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Revan";
+    model = "MA_Armor\data\Helmets\JFO\JFO_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\JFO\custom\Revan_JFO_CO.paa",
+        "F66th_Armor\data\Helmets\JFO\custom\Revan_JFO_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\JFO\JFO_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Custom_Helmets";
+        Variant = "Revan"
+    }
+};
+class PB_Grenadier_Helmet_Spinny : PB_Grenadier_Helmet
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Grenadier (Spinny)";
+    model = "MA_Armor\data\Helmets\Grenadier\Grenadier_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\data\Helmets\Grenadier\Custom\Spinny_Grenadier_CO.paa",
+        "F66th_Armor\data\Helmets\Grenadier\Custom\Spinny_Grenadier_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Grenadier\Grenadier_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Custom_Helmets";
+        Variant = "Spinny"
+    }
+};
+class PB_Trim_Scout_Helmet : PB_Helmet_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Marshal's Helmet";
+    model = "MA_Armor\data\Helmets\H4_Scout\H4_Scout_Helmet.p3d";
+    picture = "\F66th_Armor\data\Icons\F66th.paa"; //TODO: Update this
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\CustomGear\Trim\Trim_H4scout_CO.paa",
+        "F66th_Armor\Hellwalkers\CustomGear\Trim\Trim_H4scout_Visor_CO.paa"
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Custom_Helmets";
+        Variant = "Trim"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\H4_Scout\H4_Scout_Helmet.p3d";
+    };
+};
