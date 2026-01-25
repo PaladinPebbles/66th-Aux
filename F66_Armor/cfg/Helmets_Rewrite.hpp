@@ -103,8 +103,8 @@ class PB_Spartan_Helmet_Base : ItemCore
 };
 
 //Standard Helmets
-class PB_AA_Helmet : PB_Spartan_Helmet_Base
-{
+    class PB_AA_Helmet : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] AA";
@@ -128,9 +128,9 @@ class PB_AA_Helmet : PB_Spartan_Helmet_Base
         model = "PB_Base_Helmets";
         Variant = "AA"
     };
-};
-class PB_Commando_Helmet : PB_Spartan_Helmet_Base
-{
+    };
+    class PB_Commando_Helmet : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Commando";
@@ -154,9 +154,9 @@ class PB_Commando_Helmet : PB_Spartan_Helmet_Base
         model = "PB_Base_Helmets";
         Variant = "Commando"
     };
-};
-class PB_CQC_Helmet : PB_Spartan_Helmet_Base
-{
+    };
+    class PB_CQC_Helmet : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] CQC";
@@ -180,9 +180,9 @@ class PB_CQC_Helmet : PB_Spartan_Helmet_Base
         model = "PB_Base_Helmets";
         Variant = "CQC"
     }
-};
-class PB_M56Eod_Helmet: PB_Helmet_Base
-{
+    };
+    class PB_M56Eod_Helmet: PB_Helmet_Base
+    {
     scope=2;
     scopeArsenal=2;
     displayName="[F66th] M56-Eod Helmet";
@@ -202,9 +202,9 @@ class PB_M56Eod_Helmet: PB_Helmet_Base
     {
         uniformModel="MA_Armor\data\Helmets\EOD\EOD_Helmet.p3d";
     };
-};
-class PB_HREOD_Helmet : PB_Spartan_Helmet_Base
-{
+    };
+    class PB_HREOD_Helmet : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] EOD Reach";
@@ -228,9 +228,9 @@ class PB_HREOD_Helmet : PB_Spartan_Helmet_Base
         model = "PB_Base_Helmets";
         Variant = "HR EOD"
     };
-};
-class PB_EVA_Helmet : PB_Spartan_Helmet_Base
-{
+    };
+    class PB_EVA_Helmet : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] EVA";
@@ -254,9 +254,9 @@ class PB_EVA_Helmet : PB_Spartan_Helmet_Base
         model = "PB_Base_Helmets";
         Variant = "EVA"
     };
-};
-class PB_Grenadier_Helmet : PB_Spartan_Helmet_Base
-{
+    };
+    class PB_Grenadier_Helmet : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Grenadier";
@@ -280,9 +280,9 @@ class PB_Grenadier_Helmet : PB_Spartan_Helmet_Base
         model = "PB_Base_Helmets";
         Variant = "Grenadier"
     }
-};
-class PB_Gungnir_Helmet : PB_Spartan_Helmet_Base
-{
+    };
+    class PB_Gungnir_Helmet : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     author = "F66th Pebbles";
@@ -306,9 +306,9 @@ class PB_Gungnir_Helmet : PB_Spartan_Helmet_Base
         model = "PB_Base_Helmets";
         Variant = "Gungnir"
     };
-};
-class PB_HRODST_Helmet:PB_Helmet_Base
-{
+    };
+    class PB_HRODST_Helmet:PB_Helmet_Base
+    {
     scope=2;
     scopeArsenal=2;
     displayName="[F66th] M56S-R Helmet";
@@ -329,9 +329,9 @@ class PB_HRODST_Helmet:PB_Helmet_Base
     {
         uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
     };
-};
-class PB_JFO_Helmet : PB_Spartan_Helmet_Base
-{
+    };
+    class PB_JFO_Helmet : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] JFO";
@@ -355,9 +355,9 @@ class PB_JFO_Helmet : PB_Spartan_Helmet_Base
         model = "PB_Base_Helmets";
         Variant = "JFO"
     }
-};
-class PB_MP_Helmet : PB_Spartan_Helmet_Base
-{
+    };
+    class PB_MP_Helmet : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] MP";
@@ -381,9 +381,9 @@ class PB_MP_Helmet : PB_Spartan_Helmet_Base
         model = "PB_Base_Helmets";
         Variant = "MP"
     };
-};
-class PB_Pilot_Helmet : PB_Spartan_Helmet_Base
-{
+    };
+    class PB_Pilot_Helmet : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Pilot";
@@ -407,9 +407,9 @@ class PB_Pilot_Helmet : PB_Spartan_Helmet_Base
         model = "PB_Base_Helmets";
         Variant = "Pilot"
     }
-};
-class PB_Recon_Helmet : PB_Spartan_Helmet_Base
-{
+    };
+    class PB_Recon_Helmet : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Recon";
@@ -433,9 +433,9 @@ class PB_Recon_Helmet : PB_Spartan_Helmet_Base
         model = "PB_Base_Helmets";
         Variant = "Recon"
     };
-};
-class PB_Scout_Helmet : PB_Spartan_Helmet_Base
-{
+    };
+    class PB_Scout_Helmet : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Scout";
@@ -459,9 +459,9 @@ class PB_Scout_Helmet : PB_Spartan_Helmet_Base
         model = "PB_Unused";
         Variant = "H4Scout"
     };
-};
-class PB_Reach_Scout_Helmet : PB_Spartan_Helmet_Base
-{
+    };
+    class PB_Reach_Scout_Helmet : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Reach Scout";
@@ -485,9 +485,9 @@ class PB_Reach_Scout_Helmet : PB_Spartan_Helmet_Base
         model = "PB_Base_Helmets";
         Variant = "Scout"
     };
-};
-class PB_SPI_Helmet : PB_Spartan_Helmet_Base
-{
+    };
+    class PB_SPI_Helmet : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] SPI";
@@ -511,9 +511,9 @@ class PB_SPI_Helmet : PB_Spartan_Helmet_Base
         model = "PB_Unused";
         Variant = "SPI"
     };
-};
-class PB_CH252_Helmet_Base: PB_Helmet_Base
-{
+    };
+    class PB_CH252_Helmet_Base: PB_Helmet_Base
+    {
     scope=1;
     scopeArsenal=1;
     displayName="[F66th] Innie CH252 Helmet";
@@ -542,12 +542,12 @@ class PB_CH252_Helmet_Base: PB_Helmet_Base
     };
     hiddenSelectionsTextures[]=
     {
-        "F66th_Armor\OtherFactions\RedSea\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-        "F66th_Armor\OtherFactions\RedSea\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-        "F66th_Armor\OtherFactions\RedSea\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-        "F66th_Armor\OtherFactions\RedSea\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
-        "F66th_Armor\OtherFactions\RedSea\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
-        "F66th_Armor\OtherFactions\RedSea\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+        "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+        "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+        "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+        "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+        "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+        "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
@@ -594,11 +594,11 @@ class PB_CH252_Helmet_Base: PB_Helmet_Base
         model = "PB_Base_Helmets";
         Variant = "Marine"
     };
-};
+    };
 
 /// Abbadon
-class PB_HREOD_Helmet_Abbadon : PB_Spartan_Helmet_Base
-{
+    class PB_HREOD_Helmet_Abbadon : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Abbadon EOD";
@@ -622,9 +622,9 @@ class PB_HREOD_Helmet_Abbadon : PB_Spartan_Helmet_Base
         model = "PB_Abbadon_Helmets";
         Variant = "HR EOD"
     };
-};
-class PB_EVA_Helmet_Abbadon : PB_Spartan_Helmet_Base
-{
+    };
+    class PB_EVA_Helmet_Abbadon : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] EVA";
@@ -648,9 +648,9 @@ class PB_EVA_Helmet_Abbadon : PB_Spartan_Helmet_Base
         model = "PB_Abbadon_Helmets";
         Variant = "EVA"
     };
-};
-class PB_Grenadier_Helmet_Abbadon : PB_Spartan_Helmet_Base
-{
+    };
+    class PB_Grenadier_Helmet_Abbadon : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Grenadier";
@@ -674,9 +674,9 @@ class PB_Grenadier_Helmet_Abbadon : PB_Spartan_Helmet_Base
         model = "PB_Abbadon_Helmets";
         Variant = "Grenadier"
     }
-};
-class PB_HRODST_Helmet_Abbadon:PB_Helmet_Base
-{
+    };
+    class PB_HRODST_Helmet_Abbadon:PB_Helmet_Base
+    {
     scope=2;
     scopeArsenal=2;
     displayName="[F66th] M56S-R Helmet";
@@ -697,9 +697,9 @@ class PB_HRODST_Helmet_Abbadon:PB_Helmet_Base
     {
         uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
     };
-};
-class PB_Recon_Helmet_Abbadon : PB_Spartan_Helmet_Base
-{
+    };
+    class PB_Recon_Helmet_Abbadon : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Recon";
@@ -723,32 +723,975 @@ class PB_Recon_Helmet_Abbadon : PB_Spartan_Helmet_Base
         model = "PB_Abbadon_Helmets";
         Variant = "Recon"
     };
-};
+    };
 /// Asmodeus
+    class PB_MP_Helmet : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] MP";
+    model = "MA_Armor\data\Helmets\MP\MP_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Base\MP_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Base\MP_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\MP\MP_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Base_Helmets";
+        Variant = "MP"
+    };
+    };
+    class PB_HRODST_Helmet:PB_Helmet_Base
+    {
+    scope=2;
+    scopeArsenal=2;
+    displayName="[F66th] M56S-R Helmet";
+    model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    picture="\PB_Armor\data\Icons\F66th.paa";
+
+    class XtdGearInfo
+    {
+        model="PB_Asmo_Helmets";
+        Variant = "ODST"
+    };
+    hiddenSelectionsTextures[]=
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Asmo\Asmo_HR_ODST_Helmet_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Asmo\Asmo_HR_ODST_Visor_co.paa"
+    };
+    class ItemInfo: ItemInfo
+    {
+        uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    };
+    };
 
 /// Azazel
+    class PB_AA_Helmet_Azazel : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] AA";
+    model = "MA_Armor\data\Helmets\Mjolnir_AA\Mjolnir_AA.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Azazel\Azazel_AA_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Azazel\Azazel_AA_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Mjolnir_AA\Mjolnir_AA.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Azazel_Helmets";
+        Variant = "AA"
+    };
+    };
 
+    class PB_HREOD_Helmet_Azazel : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] EOD Reach";
+    model = "MA_Armor\data\Helmets\HR_EOD\HR_EOD_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Azazel\Azazel_EOD_R_CO.paa",
+        "F66th_Armor\dHellwalkers\Helmets\Azazel\Azazel_EOD_R_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\HR_EOD\HR_EOD_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Azazel_Helmets";
+        Variant = "HR EOD"
+    };
+    };
+    class PB_EVA_Helmet_Azazel : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] EVA";
+    model = "MA_Armor\data\Helmets\EVA\EVA_Helmet.p3d";
+        hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Azazel\Azazel_EVA_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Azazel\Azazel_EVA_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\EVA\EVA_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Azazel_Helmets";
+        Variant = "EVA"
+    };
+    };
+
+    class PB_Grenadier_Helmet_Azazel : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Grenadier";
+    model = "MA_Armor\data\Helmets\Grenadier\Grenadier_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Azazel\Azazel_Grenadier_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Azazel\Azazel_Grenadier_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Grenadier\Grenadier_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Azazel_Helmets";
+        Variant = "Grenadier"
+    }
+    };
+    class PB_HRODST_Helmet_Azazel:PB_Helmet_Base
+    {
+    scope=2;
+    scopeArsenal=2;
+    displayName="[F66th] M56S-R Helmet";
+    model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    picture="\PB_Armor\data\Icons\F66th.paa";
+
+    class XtdGearInfo
+    {
+        model="PB_Azazel_Helmets";
+        Variant = "ODST"
+    };
+    hiddenSelectionsTextures[]=
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Azazel\Azazel_HR_ODST_Helmet_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Azazel\Azazel_HR_ODST_Visor_co.paa"
+    };
+    class ItemInfo: ItemInfo
+    {
+        uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    };
+    };
+    class PB_Pilot_Helmet_Azazel : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Pilot";
+    model = "MA_Armor\data\Helmets\Pilot\Pilot_Helm.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Azazel\Azazel_Pilot_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Azazel\Azazel_Pilot_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Pilot\Pilot_Helm.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Azazel_Helmets";
+        Variant = "Pilot"
+    }
+    };
 /// Belphegor
+    class PB_HRODST_Helmet_Belphegor:PB_Helmet_Base
+    {
+    scope=2;
+    scopeArsenal=2;
+    displayName="[F66th] M56S-R Helmet";
+    model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    picture="\PB_Armor\data\Icons\F66th.paa";
 
+    class XtdGearInfo
+    {
+        model="PB_Belphegor_Helmets";
+        Variant = "ODST"
+    };
+    hiddenSelectionsTextures[]=
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Belphegor\Belphegor_HR_ODST_Helmet_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Belphegor\Belphegor_HR_ODST_Visor_co.paa"
+    };
+    class ItemInfo: ItemInfo
+    {
+        uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    };
+    };
+ 
 /// Cerberus
+    class PB_EVA_Helmet_Cerberus : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] EVA";
+    model = "MA_Armor\data\Helmets\EVA\EVA_Helmet.p3d";
+        hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Cerberus\Cerberus_EVA_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Cerberus\Cerberus_EVA_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\EVA\EVA_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Cerberus_Helmets";
+        Variant = "EVA"
+    };
+    };
 
+    class PB_HRODST_Helmet_Cerberus:PB_Helmet_Base
+    {
+    scope=2;
+    scopeArsenal=2;
+    displayName="[F66th] M56S-R Helmet";
+    model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    picture="\PB_Armor\data\Icons\F66th.paa";
+
+    class XtdGearInfo
+    {
+        model="PB_Cerberus_Helmets";
+        Variant = "ODST"
+    };
+    hiddenSelectionsTextures[]=
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Cerberus\Cerberus_HR_ODST_Helmet_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Cerberus\Cerberus_HR_ODST_Visor_co.paa"
+    };
+    class ItemInfo: ItemInfo
+    {
+        uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    };
+    };
+ 
 /// Leviathan
+    class PB_EVA_Helmet_Leviathan : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] EVA";
+    model = "MA_Armor\data\Helmets\EVA\EVA_Helmet.p3d";
+        hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Leviathan\Leviathan_EVA_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Leviathan\Leviathan_EVA_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\EVA\EVA_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Leviathan_Helmets";
+        Variant = "EVA"
+    };
+    };
+
+    class PB_HRODST_Helmet_Leviathan:PB_Helmet_Base
+    {
+    scope=2;
+    scopeArsenal=2;
+    displayName="[F66th] M56S-R Helmet";
+    model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    picture="\PB_Armor\data\Icons\F66th.paa";
+
+    class XtdGearInfo
+    {
+        model="PB_Leviathan_Helmets";
+        Variant = "ODST"
+    };
+    hiddenSelectionsTextures[]=
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Leviathan\Leviathan_HR_ODST_Helmet_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Leviathan\Leviathan_HR_ODST_Visor_co.paa"
+    };
+    class ItemInfo: ItemInfo
+    {
+        uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    };
+    };
+    class PB_CH252_Helmet_Leviathan: PB_Helmet_Base
+    {
+    scope=1;
+    scopeArsenal=1;
+    displayName="[F66th] Tanker Helmet";
+    model="MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+    picture=""; //TODO: Update this
+    hiddenSelections[]=
+    {
+        "Camo1", // Helmet
+        "Camo2", // NVG Mount
+        "Camo3", // Helmet Strap
+        "Camo4", // Eye Piece
+        "Camo5", // Eye Piece Glass
+        "Camo6", // Visor Glasses
+        "Camo7", // Vaccum Collar
+        "Camo8", // Helmet Chin
+        "Camo9", // Closed Visor
+        "Helmet",
+        "NVGMount",
+        "HelmetStrap",
+        "EyePiece",
+        "EyePieceGlass",
+        "VisorGlasses",
+        "VaccumCollar",
+        "Helmet_Chin",
+        "Closed_Visor"
+    };
+    hiddenSelectionsTextures[]=
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Leviathan\Leviathan_Helmet_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Leviathan\Leviathan_Helmet_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Leviathan\Leviathan_Helmet_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Leviathan\Leviathan_HelmetAccessories_A_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Leviathan\Leviathan_HelmetAccessories_A_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Leviathan\Leviathan_HelmetAccessories_A_CO.paa",
+        "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+    };
+    class ItemInfo: ItemInfo
+    {
+        uniformModel="MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        hiddenSelections[]=
+        {
+            "Camo1", // Helmet
+            "Camo2", // NVG Mount
+            "Camo3", // Helmet Strap
+            "Camo4", // Eye Piece
+            "Camo5", // Eye Piece Glass
+            "Camo6", // Visor Glasses
+            "Camo7", // Vaccum Collar
+            "Camo8", // Helmet Chin
+            "Camo9", // Closed Visor
+            "Helmet",
+            "NVGMount",
+            "HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+        };
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Leviathan_Helmets";
+        Variant = "Marine"
+    };
+    };
+
 
 /// Lilith
+    class PB_EVA_Helmet_Lilith : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] EVA";
+    model = "MA_Armor\data\Helmets\EVA\EVA_Helmet.p3d";
+        hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Lilith\Lilith_EVA_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Lilith\Lilith_EVA_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\EVA\EVA_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Lilith_Helmets";
+        Variant = "EVA"
+    };
+    };
+    class PB_Grenadier_Helmet_Lilith : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Grenadier";
+    model = "MA_Armor\data\Helmets\Grenadier\Grenadier_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Lilith\Lilith_Grenadier_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Lilith\Lilith_Grenadier_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Grenadier\Grenadier_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Lilith_Helmets";
+        Variant = "Grenadier"
+    }
+    };
+    class PB_HRODST_Helmet_Lilith:PB_Helmet_Base
+    {
+    scope=2;
+    scopeArsenal=2;
+    displayName="[F66th] M56S-R Helmet";
+    model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    picture="\PB_Armor\data\Icons\F66th.paa";
+
+    class XtdGearInfo
+    {
+        model="PB_Lilith_Helmets";
+        Variant = "ODST"
+    };
+    hiddenSelectionsTextures[]=
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Lilith\Lilith_HR_ODST_Helmet_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Lilith\Lilith_HR_ODST_Visor_co.paa"
+    };
+    class ItemInfo: ItemInfo
+    {
+        uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    };
+    };
+    class PB_Recon_Helmet_Lilith : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Recon";
+    model = "MA_Armor\data\Helmets\Recon\Recon_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Lilith\Lilith_Recon_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Lilith\Lilith_Recon_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Recon\Recon_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Lilith_Helmets";
+        Variant = "Recon"
+    };
+    };
+    class PB_Reach_Scout_Helmet_Lilith : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Reach Scout";
+    model = "MA_Armor\data\Helmets\Scout\HR_Scout_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "camo1",
+        "camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Lilith\Lilith_Scout_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Lilith\Lilith_Scout_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Scout\HR_Scout_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Lilith_Helmets";
+        Variant = "Scout"
+    };
+    };
 
 /// Lucifer
+    class PB_AA_Helmet_Lucifer : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] AA";
+    model = "MA_Armor\data\Helmets\Mjolnir_AA\Mjolnir_AA.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_AA_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_AA_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Mjolnir_AA\Mjolnir_AA.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Lucifer_Helmets";
+        Variant = "AA"
+    };
+    };
+    class PB_Commando_Helmet_Lucifer : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Commando";
+    model = "MA_Armor\data\Helmets\Commando\Commando_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_Commando_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_Commando_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Commando\Commando_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Lucifer_Helmets";
+        Variant = "Commando"
+    };
+    };
+    class PB_CQC_Helmet_Lucifer : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] CQC";
+    model = "MA_Armor\data\Helmets\CQC\CQC_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_CQC_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_CQC_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\CQC\CQC_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Lucifer_Helmets";
+        Variant = "CQC"
+    }
+    };
+    class PB_HREOD_Helmet_Lucifer : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] EOD Reach";
+    model = "MA_Armor\data\Helmets\HR_EOD\HR_EOD_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_EOD_R_CO.paa",
+        "F66th_Armor\dHellwalkers\Helmets\Lucifer\Lucifer_EOD_R_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\HR_EOD\HR_EOD_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Lucifer_Helmets";
+        Variant = "HR EOD"
+    };
+    };
+    class PB_EVA_Helmet_Lucifer : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] EVA";
+    model = "MA_Armor\data\Helmets\EVA\EVA_Helmet.p3d";
+        hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_EVA_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_EVA_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\EVA\EVA_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Lucifer_Helmets";
+        Variant = "EVA"
+    };
+    };
+    class PB_Grenadier_Helmet_Lucifer : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Grenadier";
+    model = "MA_Armor\data\Helmets\Grenadier\Grenadier_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_Grenadier_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_Grenadier_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Grenadier\Grenadier_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Lucifer_Helmets";
+        Variant = "Grenadier"
+    }
+    };
+    class PB_Gungnir_Helmet_Lucifer : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    author = "F66th Pebbles";
+    displayName = "[F66th] Gungnir";
+    model = "MA_Armor\data\Helmets\Gungnir\Gungnir_Helmet.p3d";
+    picture = "\PB_Armor\data\Icons\F66th.paa";
+    hiddenSelections[] =
+    {
+        "Camo1"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_Gungnir_Helmet_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Gungnir\Gungnir_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Lucifer_Helmets";
+        Variant = "Gungnir"
+    };
+    };
+    class PB_HRODST_Helmet_Lucifer:PB_Helmet_Base
+    {
+    scope=2;
+    scopeArsenal=2;
+    displayName="[F66th] M56S-R Helmet";
+    model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    picture="\PB_Armor\data\Icons\F66th.paa";
+
+    class XtdGearInfo
+    {
+        model="PB_Lucifer_Helmets";
+        Variant = "ODST"
+    };
+    hiddenSelectionsTextures[]=
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_HR_ODST_Helmet_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_HR_ODST_Visor_co.paa"
+    };
+    class ItemInfo: ItemInfo
+    {
+        uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    };
+    };
+    class PB_JFO_Helmet_Lucifer : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] JFO";
+    model = "MA_Armor\data\Helmets\JFO\JFO_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_JFO_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_JFO_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\JFO\JFO_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Lucifer_Helmets";
+        Variant = "JFO"
+    }
+    };
+    class PB_MP_Helmet_Lucifer : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] MP";
+    model = "MA_Armor\data\Helmets\MP\MP_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_MP_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_MP_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\MP\MP_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Lucifer_Helmets";
+        Variant = "MP"
+    };
+    };
+    class PB_Pilot_Helmet_Lucifer : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Pilot";
+    model = "MA_Armor\data\Helmets\Pilot\Pilot_Helm.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_Pilot_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_Pilot_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Pilot\Pilot_Helm.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Lucifer_Helmets";
+        Variant = "Pilot"
+    }
+    };
+    class PB_Recon_Helmet_Lucifer : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Recon";
+    model = "MA_Armor\data\Helmets\Recon\Recon_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_Recon_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_Recon_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Recon\Recon_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Base_Helmets";
+        Variant = "Recon"
+    };
+    };
+    class PB_Reach_Scout_Helmet_Lucifer : PB_Spartan_Helmet_Base
+    {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Reach Scout";
+    model = "MA_Armor\data\Helmets\Scout\HR_Scout_Helmet.p3d";
+    hiddenSelections[] =
+    {
+        "camo1",
+        "camo2"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_Scout_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_Scout_Visor_CO.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        uniformModel = "MA_Armor\data\Helmets\Scout\HR_Scout_Helmet.p3d";
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Lucifer_Helmets";
+        Variant = "Scout"
+    };
+    };
+
 
 /// Mammon
+    class PB_HRODST_Helmet_Mammon:PB_Helmet_Base
+    {
+    scope=2;
+    scopeArsenal=2;
+    displayName="[F66th] ODST Helmet";
+    model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    picture="\PB_Armor\data\Icons\F66th.paa";
+
+    class XtdGearInfo
+    {
+        model="PB_Mammon_Helmets";
+        Variant = "ODST"
+    };
+    hiddenSelectionsTextures[]=
+    {
+        "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_HR_ODST_Helmet_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_HR_ODST_Visor_co.paa"
+    };
+    class ItemInfo: ItemInfo
+    {
+        uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    };
+    };
 
 /// SCP
+    class PB_HRODST_Helmet_SCP:PB_Helmet_Base
+    {
+    scope=2;
+    scopeArsenal=2;
+    displayName="[F66th] M56S-R Helmet";
+    model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    picture="\PB_Armor\data\Icons\F66th.paa";
 
-/// Alads Angels
+    class XtdGearInfo
+    {
+        model="PB_SCP_Helmets";
+        Variant = "ODST"
+    };
+    hiddenSelectionsTextures[]=
+    {
+        "F66th_Armor\Hellwalkers\Helmets\SCP\SCP_HR_ODST_Helmet_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\SCP\SCP_HR_ODST_Visor_co.paa"
+    };
+    class ItemInfo: ItemInfo
+    {
+        uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    };
+    };
+//Enemies
 
-/// Red Sea
+    /// Alads Angels
+    class PB_HRODST_Helmet_Angelic:PB_Helmet_Base
+    {
+    scope=2;
+    scopeArsenal=2;
+    displayName="[F66th] Angelic Helmet";
+    model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    picture="\PB_Armor\data\Icons\F66th.paa";
+
+    class XtdGearInfo
+    {
+        model="PB_AladsAngels_Helmets";
+        Variant = "ODST"
+    };
+    hiddenSelectionsTextures[]=
+    {
+        "F66th_Armor\OtherFactions\AladsAngels\Helmets\Angelic_ODST_Helmet_CO.paa",
+        "F66th_Armor\OtherFactions\AladsAngels\Helmets\Angelic_ODST_Visor_co.paa"
+    };
+    class ItemInfo: ItemInfo
+    {
+        uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+    };
+    };
+
+    /// Red Wake
 
 //Custom
-class PB_HRODST_Helmet_Ahriman :PB_HRODST_Helmet
-{
+    class PB_HRODST_Helmet_Ahriman :PB_HRODST_Helmet
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Ahriman ODST";
@@ -769,9 +1712,9 @@ class PB_HRODST_Helmet_Ahriman :PB_HRODST_Helmet
     {
         uniformModel = "MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
     };
-};
-class PB_EVA_Helmet_Blue : PB_Spartan_Helmet_Base
-{
+    };
+    class PB_EVA_Helmet_Blue : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Blue EVA";
@@ -795,9 +1738,9 @@ class PB_EVA_Helmet_Blue : PB_Spartan_Helmet_Base
         model = "PB_Custom_Helmets";
         Variant = "Blue"
     };
-};
-class PB_HRODST_Helmet_Cat :PB_HRODST_Helmet
-{
+    };
+    class PB_HRODST_Helmet_Cat :PB_HRODST_Helmet
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Cat ODST";
@@ -818,9 +1761,9 @@ class PB_HRODST_Helmet_Cat :PB_HRODST_Helmet
     {
         uniformModel = "MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
     };
-};
-class PB_Gungnir_Helmet_Chronos : PB_Spartan_Helmet_Base
-{
+    };
+    class PB_Gungnir_Helmet_Chronos : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     author = "F66th Pebbles";
@@ -844,9 +1787,9 @@ class PB_Gungnir_Helmet_Chronos : PB_Spartan_Helmet_Base
         model = "PB_Custom_Helmets";
         Variant = "Chronos"
     };
-};
-class PB_HREOD_Helmet_Fixer : PB_HREOD_Helmet
-{
+    };
+    class PB_HREOD_Helmet_Fixer : PB_HREOD_Helmet
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Fixer";
@@ -870,9 +1813,9 @@ class PB_HREOD_Helmet_Fixer : PB_HREOD_Helmet
         model = "PB_Custom_Helmets";
         Variant = "Fixer"
     };
-};
-class PB_HRODST_Helmet_Komoto :PB_HRODST_Helmet
-{
+    };
+    class PB_HRODST_Helmet_Komoto :PB_HRODST_Helmet
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Komoto ODST";
@@ -893,9 +1836,9 @@ class PB_HRODST_Helmet_Komoto :PB_HRODST_Helmet
     {
         uniformModel = "MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
     };
-};
-class PB_CH252_Helmet_Navvaro : PB_CH252_Helmet_Base
-{
+    };
+    class PB_CH252_Helmet_Navvaro : PB_CH252_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Innie CH252 Helmet";
@@ -976,9 +1919,9 @@ class PB_CH252_Helmet_Navvaro : PB_CH252_Helmet_Base
         model = "PB_Custom_Helmets";
         Variant = "Navvaro"
     };
-};
-class PB_CH252_Helmet_Noble : PB_CH252_Helmet_Base
-{
+    };
+    class PB_CH252_Helmet_Noble : PB_CH252_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Innie CH252 Helmet";
@@ -1059,9 +2002,9 @@ class PB_CH252_Helmet_Noble : PB_CH252_Helmet_Base
         model = "PB_Custom_Helmets";
         Variant = "Noble"
     };
-};
-class PB_MP_Helmet_Nyquil : PB_Spartan_Helmet_Base
-{
+    };
+    class PB_MP_Helmet_Nyquil : PB_Spartan_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Nyquil MP";
@@ -1085,9 +2028,9 @@ class PB_MP_Helmet_Nyquil : PB_Spartan_Helmet_Base
         model = "PB_Custom_Helmets";
         Variant = "Nyquil"
     };
-};
-class PB_HREOD_Helmet_Pebbles : PB_HREOD_Helmet
-{
+    };
+    class PB_HREOD_Helmet_Pebbles : PB_HREOD_Helmet
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] EOD Pebbles";
@@ -1111,9 +2054,9 @@ class PB_HREOD_Helmet_Pebbles : PB_HREOD_Helmet
     {
         uniformModel = "MA_Armor\data\Helmets\HR_EOD\HR_EOD_Helmet.p3d";
     };
-};
-class PB_HRODST_Helmet_Reaper :PB_HRODST_Helmet
-{
+    };
+    class PB_HRODST_Helmet_Reaper :PB_HRODST_Helmet
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Reaper ODST";
@@ -1134,9 +2077,9 @@ class PB_HRODST_Helmet_Reaper :PB_HRODST_Helmet
     {
         uniformModel = "MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
     };
-};
-class PB_JFO_Helmet_Revan : PB_JFO_Helmet
-{
+    };
+    class PB_JFO_Helmet_Revan : PB_JFO_Helmet
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Revan";
@@ -1160,9 +2103,9 @@ class PB_JFO_Helmet_Revan : PB_JFO_Helmet
         model = "PB_Custom_Helmets";
         Variant = "Revan"
     }
-};
-class PB_Grenadier_Helmet_Spinny : PB_Grenadier_Helmet
-{
+    };
+    class PB_Grenadier_Helmet_Spinny : PB_Grenadier_Helmet
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Grenadier (Spinny)";
@@ -1186,9 +2129,9 @@ class PB_Grenadier_Helmet_Spinny : PB_Grenadier_Helmet
         model = "PB_Custom_Helmets";
         Variant = "Spinny"
     }
-};
-class PB_Trim_Scout_Helmet : PB_Helmet_Base
-{
+    };
+    class PB_Trim_Scout_Helmet : PB_Helmet_Base
+    {
     scope = 2;
     scopeArsenal = 2;
     displayName = "[F66th] Marshal's Helmet";
@@ -1208,4 +2151,4 @@ class PB_Trim_Scout_Helmet : PB_Helmet_Base
     {
         uniformModel = "MA_Armor\data\Helmets\H4_Scout\H4_Scout_Helmet.p3d";
     };
-};
+    };
