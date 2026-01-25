@@ -342,8 +342,7 @@ class XtdGearModels
         };
 
 // Vests Selections By squad
-
-        class PB_Standard_Vests
+     class PB_Standard_Vests
         {
             label="[F66th] M56 Standard Vests";
             author="F66th Pebbles";
@@ -366,5 +365,255 @@ class XtdGearModels
 
 
         };
- 
-};
+     class PB_Abbadon_Vests
+        {
+            label="[F66th] M56 Abbadon Vests";
+            author="F66th Pebbles";
+            options[]=
+            {
+                "Variant"
+            };
+            class Variant
+            {
+                values[] =
+                {
+                    "M56R",
+                    "M56R_Recon",
+                    "M56R_Light",
+                    "M56R_Radio",
+                    "M56R_CQB",
+                    "M56R_Sniper"
+                };
+            };
+
+
+        };
+     class PB_Asmodeus_Vests
+        {
+            label="[F66th] M56 Asmodeus Vests";
+            author="F66th Pebbles";
+            options[]=
+            {
+                "Variant"
+            };
+            class Variant
+            {
+                values[] =
+                {
+                    "M56R",
+                    "M56R_Recon",
+                    "M56R_Light",
+                    "M56R_Radio"
+                };
+            };
+
+
+        };
+     class PB_Azazel_Vests
+        {
+            label="[F66th] M56 Azazel Vests";
+            author="F66th Pebbles";
+            options[]=
+            {
+                "Variant"
+            };
+            class Variant
+            {
+                values[] =
+                {
+                    "M56R",
+                    "M56R_Recon",
+                    "M56R_Light",
+                    "M56R_Radio",
+                    "M56R_CQB",
+                    "M56R_Sniper"
+                };
+            };
+
+
+        };
+      class PB_Standard_Vests
+        {
+            label="[F66th] M56 Standard Vests";
+            author="F66th Pebbles";
+            options[]=
+            {
+                "Variant"
+            };
+            class Variant
+            {
+                values[] =
+                {
+                    "M56R",
+                    "M56R_Recon",
+                    "M56R_Light",
+                    "M56R_Radio",
+                    "M56R_CQB",
+                    "M56R_Sniper"
+                };
+            };
+
+
+        };
+     class PB_Belphegor_Vests
+        {
+            label="[F66th] M56 Belphegor Vests";
+            author="F66th Pebbles";
+            options[]=
+            {
+                "Variant"
+            };
+            class Variant
+            {
+                values[] =
+                {
+                    "M56R",
+                    "M56R_Recon",
+                    "M56R_Light",
+                    "M56R_Radio",
+                    "M56R_CQB",
+                    "M56R_Sniper"
+                };
+            };
+
+
+        };
+     class PB_Cerberus_Vests
+        {
+            label="[F66th] M56 Cerberus Vests";
+            author="F66th Pebbles";
+            options[]=
+            {
+                "Variant"
+            };
+            class Variant
+            {
+                values[] =
+                {
+                    "M56R",
+                    "M56R_Recon",
+                    "M56R_Light",
+                    "M56R_Radio",
+                    "M56R_CQB",
+                    "M56R_Sniper"
+                };
+            };
+
+
+        };
+     class PB_Leviathan_Vests
+        {
+            label="[F66th] M56 Leviathan Vests";
+            author="F66th Pebbles";
+            options[]=
+            {
+                "Variant"
+            };
+            class Variant
+            {
+                values[] =
+                {
+                    "M56R",
+                    "M56R_Recon",
+                    "M56R_Light",
+                    "M56R_Radio",
+                    "M56R_CQB",
+                    "M56R_Sniper"
+                };
+            };
+
+
+        };
+     class PB_Lilith_Vests
+        {
+            label="[F66th] M56 Lilith Vests";
+            author="F66th Pebbles";
+            options[]=
+            {
+                "Variant"
+            };
+            class Variant
+            {
+                values[] =
+                {
+                    "M56R",
+                    "M56R_Recon",
+                    "M56R_Light",
+                    "M56R_Radio",
+                    "M56R_CQB",
+                    "M56R_Sniper"
+                };
+            };
+
+
+        };
+     class PB_Lucifer_Vests
+        {
+            label="[F66th] M56 Lucifer Vests";
+            author="F66th Pebbles";
+            options[]=
+            {
+                "Variant"
+            };
+            class Variant
+            {
+                values[] =
+                {
+                    "M56R",
+                    "M56R_Recon",
+                    "M56R_Light",
+                    "M56R_Radio",
+                    "M56R_CQB",
+                    "M56R_Sniper"
+                };
+            };
+
+
+        };
+      class PB_Standard_Vests
+        {
+            label="[F66th] M56 Standard Vests";
+            author="F66th Pebbles";
+            options[]=
+            {
+                "Variant"
+            };
+            class Variant
+            {
+                values[] =
+                {
+                    "M56R",
+                    "M56R_Recon",
+                    "M56R_Light",
+                    "M56R_Radio",
+                    "M56R_CQB",
+                    "M56R_Sniper"
+                };
+            };
+
+
+        };
+     class PB_Mammon_Vests
+        {
+            label="[F66th] M56 Mammon Vests";
+            author="F66th Pebbles";
+            options[]=
+            {
+                "Variant"
+            };
+            class Variant
+            {
+                values[] =
+                {
+                    "M56R",
+                    "M56R_Recon",
+                    "M56R_Light",
+                    "M56R_Radio",
+                    "M56R_CQB",
+                    "M56R_Sniper"
+                };
+            };
+
+
+        };
+      };
