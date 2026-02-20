@@ -38,24 +38,13 @@ class CfgPatches
 
 class CfgWeapons
 {
-    class HeadgearItem;
-    class ItemCore;
     class InventoryItem_Base_F;
-    class VestItem;
-    class V_PlateCarrier1_rgr;
-    class U_B_CombatUniform_mcam;
-    class UniformItem;
     class NVGoggles;
     class HitPoints;
-    class Uniform_Base: ItemCore
-    {
-        class ItemInfo;
-    };
+
 
     // Helmets
     #include "cfg\Helmets.hpp"
-    #include "cfg\Spartan_Helmets.hpp"
-    #include "cfg\Marine_Helmets.hpp"
 
     // Vests
     #include "cfg\Vests.hpp"
@@ -103,7 +92,6 @@ class CfgVehicleCLasses
 
 class CfgVehicles
 {
-    class B_Soldier_base_F;
     // Backpacks
     #include "cfg\Backpacks.hpp"
     //Marine uniform base

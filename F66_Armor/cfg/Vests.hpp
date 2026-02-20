@@ -1,4 +1,7 @@
 //F66th Vest cfg
+class V_PlateCarrier1_rgr;
+class VestItem;
+
 
 class PB_Vest_Base: V_PlateCarrier1_rgr
 {

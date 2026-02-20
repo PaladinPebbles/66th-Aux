@@ -1,3 +1,4 @@
+class B_Soldier_base_F;
 class PB_Uniform_Base : B_Soldier_base_F
 {
     scope = 0;

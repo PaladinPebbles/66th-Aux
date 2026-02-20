@@ -1,4 +1,6 @@
 //Base Helmets
+class HeadgearItem;
+class ItemCore;
 class PB_Helmet_Base: ItemCore
 {
     scope=1;
@@ -126,7 +128,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Base_Helmets";
-        Variant = "AA"
+        Variant = "AA";
     };
     };
     class PB_Commando_Helmet : PB_Spartan_Helmet_Base
@@ -152,7 +154,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Base_Helmets";
-        Variant = "Commando"
+        Variant = "Commando";
     };
     };
     class PB_CQC_Helmet : PB_Spartan_Helmet_Base
@@ -178,8 +180,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Base_Helmets";
-        Variant = "CQC"
-    }
+        Variant = "CQC";
+    };
     };
     class PB_M56Eod_Helmet: PB_Helmet_Base
     {
@@ -196,7 +198,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Unused";
-        Variant = "H3EOD"
+        Variant = "H3EOD";
     };
     class ItemInfo: ItemInfo
     {
@@ -226,7 +228,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Base_Helmets";
-        Variant = "HR EOD"
+        Variant = "HR EOD";
     };
     };
     class PB_EVA_Helmet : PB_Spartan_Helmet_Base
@@ -252,7 +254,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Base_Helmets";
-        Variant = "EVA"
+        Variant = "EVA";
     };
     };
     class PB_Grenadier_Helmet : PB_Spartan_Helmet_Base
@@ -278,8 +280,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Base_Helmets";
-        Variant = "Grenadier"
-    }
+        Variant = "Grenadier";
+    };
     };
     class PB_Gungnir_Helmet : PB_Spartan_Helmet_Base
     {
@@ -304,7 +306,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Base_Helmets";
-        Variant = "Gungnir"
+        Variant = "Gungnir";
     };
     };
     class PB_HRODST_Helmet:PB_Helmet_Base
@@ -318,7 +320,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model="PB_Base_Helmets";
-        Variant = "ODST"
+        Variant = "ODST";
     };
     hiddenSelectionsTextures[]=
     {
@@ -353,8 +355,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Base_Helmets";
-        Variant = "JFO"
-    }
+        Variant = "JFO";
+    };
     };
     class PB_MP_Helmet : PB_Spartan_Helmet_Base
     {
@@ -379,7 +381,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Base_Helmets";
-        Variant = "MP"
+        Variant = "MP";
     };
     };
     class PB_Pilot_Helmet : PB_Spartan_Helmet_Base
@@ -405,8 +407,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Base_Helmets";
-        Variant = "Pilot"
-    }
+        Variant = "Pilot";
+    };
     };
     class PB_Recon_Helmet : PB_Spartan_Helmet_Base
     {
@@ -431,7 +433,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Base_Helmets";
-        Variant = "Recon"
+        Variant = "Recon";
     };
     };
     class PB_Scout_Helmet : PB_Spartan_Helmet_Base
@@ -457,7 +459,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Unused";
-        Variant = "H4Scout"
+        Variant = "H4Scout";
     };
     };
     class PB_Reach_Scout_Helmet : PB_Spartan_Helmet_Base
@@ -483,7 +485,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Base_Helmets";
-        Variant = "Scout"
+        Variant = "Scout";
     };
     };
     class PB_SPI_Helmet : PB_Spartan_Helmet_Base
@@ -509,8 +511,34 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Unused";
-        Variant = "SPI"
+        Variant = "SPI";
     };
+    };
+    class PB_Hayabusa_Helmet : PB_Spartan_Helmet_Base
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        displayName = "[F66th] Hayabusa";
+        model = "MA_Armor\data\Helmets\Hayabusa\Hayabusa_Helmet.p3d";
+        hiddenSelections[] =
+        {
+            "camo1",
+            "camo2"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "MA_Armor\data\Helmets\Hayabusa\Helmets\Olive_Hayabusa_Helmet_CO.paa",
+            "MA_Armor\data\Helmets\Hayabusa\Visors\Base_Hayabusa_Visor_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\Hayabusa\Hayabusa_Helmet.p3d";
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Base_Helmets";
+            Variant = "Hayabusa";
+        };
     };
     class PB_CH252_Helmet_Base: PB_Helmet_Base
     {
@@ -592,7 +620,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Base_Helmets";
-        Variant = "Marine"
+        Variant = "Marine";
     };
     };
 
@@ -620,7 +648,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Abbadon_Helmets";
-        Variant = "HR EOD"
+        Variant = "HR EOD";
     };
     };
     class PB_EVA_Helmet_Abbadon : PB_Spartan_Helmet_Base
@@ -646,7 +674,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Abbadon_Helmets";
-        Variant = "EVA"
+        Variant = "EVA";
     };
     };
     class PB_Grenadier_Helmet_Abbadon : PB_Spartan_Helmet_Base
@@ -672,8 +700,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Abbadon_Helmets";
-        Variant = "Grenadier"
-    }
+        Variant = "Grenadier";
+    };
     };
     class PB_HRODST_Helmet_Abbadon:PB_Helmet_Base
     {
@@ -686,7 +714,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model="PB_Abbadon_Helmets";
-        Variant = "ODST"
+        Variant = "ODST";
     };
     hiddenSelectionsTextures[]=
     {
@@ -721,15 +749,99 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Abbadon_Helmets";
-        Variant = "Recon"
+        Variant = "Recon";
     };
     };
+    class PB_CH252_Helmet_Abbadon : PB_Helmet_Base
+    {
+        scope = 1;
+        scopeArsenal = 1;
+        displayName = "[F66th] Innie CH252 Helmet";
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = ""; //TODO: Update this
+        hiddenSelections[] =
+        {
+            "Camo1", // Helmet
+            "Camo2", // NVG Mount
+            "Camo3", // Helmet Strap
+            "Camo4", // Eye Piece
+            "Camo5", // Eye Piece Glass
+            "Camo6", // Visor Glasses
+            "Camo7", // Vaccum Collar
+            "Camo8", // Helmet Chin
+            "Camo9", // Closed Visor
+            "Helmet",
+            "NVGMount",
+            "HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+            hiddenSelections[] =
+            {
+                "Camo1", // Helmet
+                "Camo2", // NVG Mount
+                "Camo3", // Helmet Strap
+                "Camo4", // Eye Piece
+                "Camo5", // Eye Piece Glass
+                "Camo6", // Visor Glasses
+                "Camo7", // Vaccum Collar
+                "Camo8", // Helmet Chin
+                "Camo9", // Closed Visor
+                "Helmet",
+                "NVGMount",
+                "HelmetStrap",
+                "EyePiece",
+                "EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+            };
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Abbadon_Helmets";
+            Variant = "Marine";
+        };
+    };
+
 /// Asmodeus
-    class PB_MP_Helmet : PB_Spartan_Helmet_Base
+    class PB_MP_Helmet_Asmodeus : PB_Spartan_Helmet_Base
     {
     scope = 2;
     scopeArsenal = 2;
-    displayName = "[F66th] MP";
+    displayName = "[F66th] Asmodeus MP";
     model = "MA_Armor\data\Helmets\MP\MP_Helmet.p3d";
     hiddenSelections[] =
     {
@@ -738,8 +850,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     };
     hiddenSelectionsTextures[] =
     {
-        "F66th_Armor\Hellwalkers\Helmets\Base\MP_CO.paa",
-        "F66th_Armor\Hellwalkers\Helmets\Base\MP_Visor_CO.paa"
+        "F66th_Armor\Hellwalkers\Helmets\Asmo\Asmo_MP_CO.paa",
+        "F66th_Armor\Hellwalkers\Helmets\Asmo\Asmo_MP_Visor_CO.paa"
     };
     class ItemInfo : ItemInfo
     {
@@ -747,22 +859,22 @@ class PB_Spartan_Helmet_Base : ItemCore
     };
     class XtdGearInfo
     {
-        model = "PB_Base_Helmets";
-        Variant = "MP"
+        model = "PB_Asmodeus_Helmets";
+        Variant = "MP";
     };
     };
-    class PB_HRODST_Helmet:PB_Helmet_Base
+    class PB_HRODST_Helmet_Asmodeus:PB_Helmet_Base
     {
     scope=2;
     scopeArsenal=2;
-    displayName="[F66th] M56S-R Helmet";
+    displayName="[F66th] Asmodeus-R Helmet";
     model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
     picture="\PB_Armor\data\Icons\F66th.paa";
 
     class XtdGearInfo
     {
         model="PB_Asmo_Helmets";
-        Variant = "ODST"
+        Variant = "ODST";
     };
     hiddenSelectionsTextures[]=
     {
@@ -773,6 +885,89 @@ class PB_Spartan_Helmet_Base : ItemCore
     {
         uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
     };
+    };
+    class PB_CH252_Helmet_Asmodeus : PB_Helmet_Base
+    {
+        scope = 1;
+        scopeArsenal = 1;
+        displayName = "[F66th] Innie CH252 Helmet";
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = ""; //TODO: Update this
+        hiddenSelections[] =
+        {
+            "Camo1", // Helmet
+            "Camo2", // NVG Mount
+            "Camo3", // Helmet Strap
+            "Camo4", // Eye Piece
+            "Camo5", // Eye Piece Glass
+            "Camo6", // Visor Glasses
+            "Camo7", // Vaccum Collar
+            "Camo8", // Helmet Chin
+            "Camo9", // Closed Visor
+            "Helmet",
+            "NVGMount",
+            "HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+            hiddenSelections[] =
+            {
+                "Camo1", // Helmet
+                "Camo2", // NVG Mount
+                "Camo3", // Helmet Strap
+                "Camo4", // Eye Piece
+                "Camo5", // Eye Piece Glass
+                "Camo6", // Visor Glasses
+                "Camo7", // Vaccum Collar
+                "Camo8", // Helmet Chin
+                "Camo9", // Closed Visor
+                "Helmet",
+                "NVGMount",
+                "HelmetStrap",
+                "EyePiece",
+                "EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+            };
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Asmodeus_Helmets";
+            Variant = "Marine";
+        };
     };
 
 /// Azazel
@@ -799,10 +994,9 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Azazel_Helmets";
-        Variant = "AA"
+        Variant = "AA";
     };
     };
-
     class PB_HREOD_Helmet_Azazel : PB_Spartan_Helmet_Base
     {
     scope = 2;
@@ -826,7 +1020,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Azazel_Helmets";
-        Variant = "HR EOD"
+        Variant = "HR EOD";
     };
     };
     class PB_EVA_Helmet_Azazel : PB_Spartan_Helmet_Base
@@ -852,10 +1046,9 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Azazel_Helmets";
-        Variant = "EVA"
+        Variant = "EVA";
     };
     };
-
     class PB_Grenadier_Helmet_Azazel : PB_Spartan_Helmet_Base
     {
     scope = 2;
@@ -879,8 +1072,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Azazel_Helmets";
-        Variant = "Grenadier"
-    }
+        Variant = "Grenadier";
+    };
     };
     class PB_HRODST_Helmet_Azazel:PB_Helmet_Base
     {
@@ -893,7 +1086,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model="PB_Azazel_Helmets";
-        Variant = "ODST"
+        Variant = "ODST";
     };
     hiddenSelectionsTextures[]=
     {
@@ -928,9 +1121,93 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Azazel_Helmets";
-        Variant = "Pilot"
-    }
+        Variant = "Pilot";
     };
+    };
+    class PB_CH252_Helmet_Azazel : PB_Helmet_Base
+    {
+        scope = 1;
+        scopeArsenal = 1;
+        displayName = "[F66th] Innie CH252 Helmet";
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = ""; //TODO: Update this
+        hiddenSelections[] =
+        {
+            "Camo1", // Helmet
+            "Camo2", // NVG Mount
+            "Camo3", // Helmet Strap
+            "Camo4", // Eye Piece
+            "Camo5", // Eye Piece Glass
+            "Camo6", // Visor Glasses
+            "Camo7", // Vaccum Collar
+            "Camo8", // Helmet Chin
+            "Camo9", // Closed Visor
+            "Helmet",
+            "NVGMount",
+            "HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+            hiddenSelections[] =
+            {
+                "Camo1", // Helmet
+                "Camo2", // NVG Mount
+                "Camo3", // Helmet Strap
+                "Camo4", // Eye Piece
+                "Camo5", // Eye Piece Glass
+                "Camo6", // Visor Glasses
+                "Camo7", // Vaccum Collar
+                "Camo8", // Helmet Chin
+                "Camo9", // Closed Visor
+                "Helmet",
+                "NVGMount",
+                "HelmetStrap",
+                "EyePiece",
+                "EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+            };
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Azazel_Helmets";
+            Variant = "Marine";
+        };
+    };
+
 /// Belphegor
     class PB_HRODST_Helmet_Belphegor:PB_Helmet_Base
     {
@@ -943,7 +1220,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model="PB_Belphegor_Helmets";
-        Variant = "ODST"
+        Variant = "ODST";
     };
     hiddenSelectionsTextures[]=
     {
@@ -955,7 +1232,90 @@ class PB_Spartan_Helmet_Base : ItemCore
         uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
     };
     };
- 
+    class PB_CH252_Helmet_Belphegor : PB_Helmet_Base
+    {
+        scope = 1;
+        scopeArsenal = 1;
+        displayName = "[F66th] Innie CH252 Helmet";
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = ""; //TODO: Update this
+        hiddenSelections[] =
+        {
+            "Camo1", // Helmet
+            "Camo2", // NVG Mount
+            "Camo3", // Helmet Strap
+            "Camo4", // Eye Piece
+            "Camo5", // Eye Piece Glass
+            "Camo6", // Visor Glasses
+            "Camo7", // Vaccum Collar
+            "Camo8", // Helmet Chin
+            "Camo9", // Closed Visor
+            "Helmet",
+            "NVGMount",
+            "HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+            hiddenSelections[] =
+            {
+                "Camo1", // Helmet
+                "Camo2", // NVG Mount
+                "Camo3", // Helmet Strap
+                "Camo4", // Eye Piece
+                "Camo5", // Eye Piece Glass
+                "Camo6", // Visor Glasses
+                "Camo7", // Vaccum Collar
+                "Camo8", // Helmet Chin
+                "Camo9", // Closed Visor
+                "Helmet",
+                "NVGMount",
+                "HelmetStrap",
+                "EyePiece",
+                "EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+            };
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Belphegor_Helmets";
+            Variant = "Marine";
+        };
+    };
+
 /// Cerberus
     class PB_EVA_Helmet_Cerberus : PB_Spartan_Helmet_Base
     {
@@ -980,10 +1340,9 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Cerberus_Helmets";
-        Variant = "EVA"
+        Variant = "EVA";
     };
     };
-
     class PB_HRODST_Helmet_Cerberus:PB_Helmet_Base
     {
     scope=2;
@@ -995,7 +1354,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model="PB_Cerberus_Helmets";
-        Variant = "ODST"
+        Variant = "ODST";
     };
     hiddenSelectionsTextures[]=
     {
@@ -1007,7 +1366,90 @@ class PB_Spartan_Helmet_Base : ItemCore
         uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
     };
     };
- 
+    class PB_CH252_Helmet_Cerberus : PB_Helmet_Base
+    {
+        scope = 1;
+        scopeArsenal = 1;
+        displayName = "[F66th] Innie CH252 Helmet";
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = ""; //TODO: Update this
+        hiddenSelections[] =
+        {
+            "Camo1", // Helmet
+            "Camo2", // NVG Mount
+            "Camo3", // Helmet Strap
+            "Camo4", // Eye Piece
+            "Camo5", // Eye Piece Glass
+            "Camo6", // Visor Glasses
+            "Camo7", // Vaccum Collar
+            "Camo8", // Helmet Chin
+            "Camo9", // Closed Visor
+            "Helmet",
+            "NVGMount",
+            "HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+            hiddenSelections[] =
+            {
+                "Camo1", // Helmet
+                "Camo2", // NVG Mount
+                "Camo3", // Helmet Strap
+                "Camo4", // Eye Piece
+                "Camo5", // Eye Piece Glass
+                "Camo6", // Visor Glasses
+                "Camo7", // Vaccum Collar
+                "Camo8", // Helmet Chin
+                "Camo9", // Closed Visor
+                "Helmet",
+                "NVGMount",
+                "HelmetStrap",
+                "EyePiece",
+                "EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+            };
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Cerberus_Helmets";
+            Variant = "Marine";
+        };
+    };
+
 /// Leviathan
     class PB_EVA_Helmet_Leviathan : PB_Spartan_Helmet_Base
     {
@@ -1032,10 +1474,9 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Leviathan_Helmets";
-        Variant = "EVA"
+        Variant = "EVA";
     };
     };
-
     class PB_HRODST_Helmet_Leviathan:PB_Helmet_Base
     {
     scope=2;
@@ -1047,7 +1488,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model="PB_Leviathan_Helmets";
-        Variant = "ODST"
+        Variant = "ODST";
     };
     hiddenSelectionsTextures[]=
     {
@@ -1139,10 +1580,9 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Leviathan_Helmets";
-        Variant = "Marine"
+        Variant = "Marine";
     };
     };
-
 
 /// Lilith
     class PB_EVA_Helmet_Lilith : PB_Spartan_Helmet_Base
@@ -1168,7 +1608,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Lilith_Helmets";
-        Variant = "EVA"
+        Variant = "EVA";
     };
     };
     class PB_Grenadier_Helmet_Lilith : PB_Spartan_Helmet_Base
@@ -1194,8 +1634,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Lilith_Helmets";
-        Variant = "Grenadier"
-    }
+        Variant = "Grenadier";
+    };
     };
     class PB_HRODST_Helmet_Lilith:PB_Helmet_Base
     {
@@ -1208,7 +1648,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model="PB_Lilith_Helmets";
-        Variant = "ODST"
+        Variant = "ODST";
     };
     hiddenSelectionsTextures[]=
     {
@@ -1243,7 +1683,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Lilith_Helmets";
-        Variant = "Recon"
+        Variant = "Recon";
     };
     };
     class PB_Reach_Scout_Helmet_Lilith : PB_Spartan_Helmet_Base
@@ -1269,8 +1709,91 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Lilith_Helmets";
-        Variant = "Scout"
+        Variant = "Scout";
     };
+    };
+    class PB_CH252_Helmet_Lilith : PB_Helmet_Base
+    {
+        scope = 1;
+        scopeArsenal = 1;
+        displayName = "[F66th] Innie CH252 Helmet";
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = ""; //TODO: Update this
+        hiddenSelections[] =
+        {
+            "Camo1", // Helmet
+            "Camo2", // NVG Mount
+            "Camo3", // Helmet Strap
+            "Camo4", // Eye Piece
+            "Camo5", // Eye Piece Glass
+            "Camo6", // Visor Glasses
+            "Camo7", // Vaccum Collar
+            "Camo8", // Helmet Chin
+            "Camo9", // Closed Visor
+            "Helmet",
+            "NVGMount",
+            "HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+            hiddenSelections[] =
+            {
+                "Camo1", // Helmet
+                "Camo2", // NVG Mount
+                "Camo3", // Helmet Strap
+                "Camo4", // Eye Piece
+                "Camo5", // Eye Piece Glass
+                "Camo6", // Visor Glasses
+                "Camo7", // Vaccum Collar
+                "Camo8", // Helmet Chin
+                "Camo9", // Closed Visor
+                "Helmet",
+                "NVGMount",
+                "HelmetStrap",
+                "EyePiece",
+                "EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+            };
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Lilith_Helmets";
+            Variant = "Marine";
+        };
     };
 
 /// Lucifer
@@ -1297,7 +1820,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Lucifer_Helmets";
-        Variant = "AA"
+        Variant = "AA";
     };
     };
     class PB_Commando_Helmet_Lucifer : PB_Spartan_Helmet_Base
@@ -1323,7 +1846,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Lucifer_Helmets";
-        Variant = "Commando"
+        Variant = "Commando";
     };
     };
     class PB_CQC_Helmet_Lucifer : PB_Spartan_Helmet_Base
@@ -1349,8 +1872,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Lucifer_Helmets";
-        Variant = "CQC"
-    }
+        Variant = "CQC";
+    };
     };
     class PB_HREOD_Helmet_Lucifer : PB_Spartan_Helmet_Base
     {
@@ -1375,7 +1898,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Lucifer_Helmets";
-        Variant = "HR EOD"
+        Variant = "HR EOD";
     };
     };
     class PB_EVA_Helmet_Lucifer : PB_Spartan_Helmet_Base
@@ -1401,7 +1924,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Lucifer_Helmets";
-        Variant = "EVA"
+        Variant = "EVA";
     };
     };
     class PB_Grenadier_Helmet_Lucifer : PB_Spartan_Helmet_Base
@@ -1427,8 +1950,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Lucifer_Helmets";
-        Variant = "Grenadier"
-    }
+        Variant = "Grenadier";
+    };
     };
     class PB_Gungnir_Helmet_Lucifer : PB_Spartan_Helmet_Base
     {
@@ -1453,7 +1976,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Lucifer_Helmets";
-        Variant = "Gungnir"
+        Variant = "Gungnir";
     };
     };
     class PB_HRODST_Helmet_Lucifer:PB_Helmet_Base
@@ -1467,7 +1990,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model="PB_Lucifer_Helmets";
-        Variant = "ODST"
+        Variant = "ODST";
     };
     hiddenSelectionsTextures[]=
     {
@@ -1502,8 +2025,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Lucifer_Helmets";
-        Variant = "JFO"
-    }
+        Variant = "JFO";
+    };
     };
     class PB_MP_Helmet_Lucifer : PB_Spartan_Helmet_Base
     {
@@ -1528,7 +2051,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Lucifer_Helmets";
-        Variant = "MP"
+        Variant = "MP";
     };
     };
     class PB_Pilot_Helmet_Lucifer : PB_Spartan_Helmet_Base
@@ -1554,8 +2077,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Lucifer_Helmets";
-        Variant = "Pilot"
-    }
+        Variant = "Pilot";
+    };
     };
     class PB_Recon_Helmet_Lucifer : PB_Spartan_Helmet_Base
     {
@@ -1579,8 +2102,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     };
     class XtdGearInfo
     {
-        model = "PB_Base_Helmets";
-        Variant = "Recon"
+        model = "PB_Lucifer_Helmets";
+        Variant = "Recon";
     };
     };
     class PB_Reach_Scout_Helmet_Lucifer : PB_Spartan_Helmet_Base
@@ -1606,10 +2129,92 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Lucifer_Helmets";
-        Variant = "Scout"
+        Variant = "Scout";
     };
     };
-
+    class PB_CH252_Helmet_Lucifer : PB_Helmet_Base
+    {
+        scope = 1;
+        scopeArsenal = 1;
+        displayName = "[F66th] Innie CH252 Helmet";
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = ""; //TODO: Update this
+        hiddenSelections[] =
+        {
+            "Camo1", // Helmet
+            "Camo2", // NVG Mount
+            "Camo3", // Helmet Strap
+            "Camo4", // Eye Piece
+            "Camo5", // Eye Piece Glass
+            "Camo6", // Visor Glasses
+            "Camo7", // Vaccum Collar
+            "Camo8", // Helmet Chin
+            "Camo9", // Closed Visor
+            "Helmet",
+            "NVGMount",
+            "HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+            hiddenSelections[] =
+            {
+                "Camo1", // Helmet
+                "Camo2", // NVG Mount
+                "Camo3", // Helmet Strap
+                "Camo4", // Eye Piece
+                "Camo5", // Eye Piece Glass
+                "Camo6", // Visor Glasses
+                "Camo7", // Vaccum Collar
+                "Camo8", // Helmet Chin
+                "Camo9", // Closed Visor
+                "Helmet",
+                "NVGMount",
+                "HelmetStrap",
+                "EyePiece",
+                "EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+            };
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Lucifer_Helmets";
+            Variant = "Marine";
+        };
+    };
 
 /// Mammon
     class PB_HRODST_Helmet_Mammon:PB_Helmet_Base
@@ -1623,7 +2228,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model="PB_Mammon_Helmets";
-        Variant = "ODST"
+        Variant = "ODST";
     };
     hiddenSelectionsTextures[]=
     {
@@ -1634,6 +2239,89 @@ class PB_Spartan_Helmet_Base : ItemCore
     {
         uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
     };
+    };
+    class PB_CH252_Helmet_Mammon : PB_Helmet_Base
+    {
+        scope = 1;
+        scopeArsenal = 1;
+        displayName = "[F66th] Innie CH252 Helmet";
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = ""; //TODO: Update this
+        hiddenSelections[] =
+        {
+            "Camo1", // Helmet
+            "Camo2", // NVG Mount
+            "Camo3", // Helmet Strap
+            "Camo4", // Eye Piece
+            "Camo5", // Eye Piece Glass
+            "Camo6", // Visor Glasses
+            "Camo7", // Vaccum Collar
+            "Camo8", // Helmet Chin
+            "Camo9", // Closed Visor
+            "Helmet",
+            "NVGMount",
+            "HelmetStrap",
+            "EyePiece",
+            "EyePieceGlass",
+            "VisorGlasses",
+            "VaccumCollar",
+            "Helmet_Chin",
+            "Closed_Visor"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+            hiddenSelections[] =
+            {
+                "Camo1", // Helmet
+                "Camo2", // NVG Mount
+                "Camo3", // Helmet Strap
+                "Camo4", // Eye Piece
+                "Camo5", // Eye Piece Glass
+                "Camo6", // Visor Glasses
+                "Camo7", // Vaccum Collar
+                "Camo8", // Helmet Chin
+                "Camo9", // Closed Visor
+                "Helmet",
+                "NVGMount",
+                "HelmetStrap",
+                "EyePiece",
+                "EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+            };
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Mammon_Helmets";
+            Variant = "Marine";
+        };
     };
 
 /// SCP
@@ -1648,7 +2336,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model="PB_SCP_Helmets";
-        Variant = "ODST"
+        Variant = "ODST";
     };
     hiddenSelectionsTextures[]=
     {
@@ -1673,7 +2361,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model="PB_AladsAngels_Helmets";
-        Variant = "ODST"
+        Variant = "ODST";
     };
     hiddenSelectionsTextures[]=
     {
@@ -2082,7 +2770,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Custom_Helmets";
-        Variant = "Ahriman"
+        Variant = "Ahriman";
     };
     hiddenSelectionsTextures[] =
     {
@@ -2117,7 +2805,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Custom_Helmets";
-        Variant = "Blue"
+        Variant = "Blue";
     };
     };
     class PB_HRODST_Helmet_Cat :PB_HRODST_Helmet
@@ -2131,7 +2819,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Custom_Helmets";
-        Variant = "Cat"
+        Variant = "Cat";
     };
     hiddenSelectionsTextures[] =
     {
@@ -2166,7 +2854,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Custom_Helmets";
-        Variant = "Chronos"
+        Variant = "Chronos";
     };
     };
     class PB_HREOD_Helmet_Fixer : PB_HREOD_Helmet
@@ -2192,7 +2880,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Custom_Helmets";
-        Variant = "Fixer"
+        Variant = "Fixer";
     };
     };
     class PB_HRODST_Helmet_Komoto :PB_HRODST_Helmet
@@ -2206,7 +2894,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Custom_Helmets";
-        Variant = "Komoto"
+        Variant = "Komoto";
     };
     hiddenSelectionsTextures[] =
     {
@@ -2298,7 +2986,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Custom_Helmets";
-        Variant = "Navvaro"
+        Variant = "Navvaro";
     };
     };
     class PB_CH252_Helmet_Noble : PB_CH252_Helmet_Base
@@ -2381,7 +3069,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Custom_Helmets";
-        Variant = "Noble"
+        Variant = "Noble";
     };
     };
     class PB_MP_Helmet_Nyquil : PB_Spartan_Helmet_Base
@@ -2407,7 +3095,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Custom_Helmets";
-        Variant = "Nyquil"
+        Variant = "Nyquil";
     };
     };
     class PB_HREOD_Helmet_Pebbles : PB_HREOD_Helmet
@@ -2429,8 +3117,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Custom_Helmets";
-        Variant = "Pebbles"
-    }
+        Variant = "Pebbles";
+    };
     class ItemInfo : ItemInfo
     {
         uniformModel = "MA_Armor\data\Helmets\HR_EOD\HR_EOD_Helmet.p3d";
@@ -2447,7 +3135,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Custom_Helmets";
-        Variant = "Reaper"
+        Variant = "Reaper";
     };
     hiddenSelectionsTextures[] =
     {
@@ -2482,8 +3170,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Custom_Helmets";
-        Variant = "Revan"
-    }
+        Variant = "Revan";
+    };
     };
     class PB_Grenadier_Helmet_Spinny : PB_Grenadier_Helmet
     {
@@ -2508,8 +3196,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Custom_Helmets";
-        Variant = "Spinny"
-    }
+        Variant = "Spinny";
+    };
     };
     class PB_Trim_Scout_Helmet : PB_Helmet_Base
     {
@@ -2526,7 +3214,7 @@ class PB_Spartan_Helmet_Base : ItemCore
     class XtdGearInfo
     {
         model = "PB_Custom_Helmets";
-        Variant = "Trim"
+        Variant = "Trim";
     };
     class ItemInfo : ItemInfo
     {

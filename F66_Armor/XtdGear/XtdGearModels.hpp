@@ -91,7 +91,68 @@ class XtdGearModels
                     "Pilot",
                     "Recon",
                     "Scout",
+                    "Hayabusa",
                     "Marine"
+                };
+                class PBxtd_AA_Helmet
+                {
+                    label = "AA";
+                };
+                class PBxtd_Commando_Helmet
+                {
+                    label = "Commando";
+                };
+                class PBxtd_CQC_Helmet
+                {
+                    label = "CQC";
+                };
+                class PBxtd_HREOD_Helmet
+                {
+                    label = "EOD Reach";
+                };
+                class PBxtd_EVA_Helmet
+                {
+                    label = "EVA";
+                };
+                class PBxtd_Grenadier_Helmet
+                {
+                    label = "Grenadier";
+                };
+                class PBxtd_Gungnir_Helmet
+                {
+                    label = "Gungnir";
+                };
+                class PBxtd_HRODST_Helmet
+                {
+                    label = "ODST";
+                };
+                class PBxtd_JFO_Helmet
+                {
+                    label = "JFO";
+                };
+                class PBxtd_MP_Helmet
+                {
+                    label = "MP";
+                };
+                class PBxtd_Pilot_Helmet
+                {
+                    label = "Pilot";
+                };
+                class PBxtd_Recon_Helmet
+                {
+                    label = "Recon";
+                };
+                class PBxtd_Reach_Scout_Helmet
+                {
+                    label = "Scout Reach";
+                };
+                class PBxtd_Hayabusa_Helmet
+                {
+                    label = "Hayabusa";
+                };
+                class PBxtd_CH252_Helmet_Base
+                {
+                    label = "Marine";
                 };
             };
 
@@ -113,6 +174,18 @@ class XtdGearModels
                     "H4Scout",
                     "SPI"
                 };
+                class PBxtd_M56Eod_Helmet
+                {
+                    label = "EOD";
+                };
+                class PBxtd_Scout_Helmet
+                {
+                    label = "Scout";
+                };
+                class PBxtd_SPI_Helmet
+                {
+                    label = "SPI";
+                };
             };
         };
         class PB_Abbadon_Helmets   
@@ -133,6 +206,30 @@ class XtdGearModels
                     "ODST",
                     "Recon"
                 };
+                class PBxtd_HREOD_Helmet_Abbadon
+                {
+                    label = "EOD Reach";
+                };
+                class PBxtd_EVA_Helmet_Abbadon
+                {
+                    label = "EVA";
+                };
+                class PBxtd_Grenadier_Helmet_Abbadon
+                {
+                    label = "Grenadier";
+                };
+                class PBxtd_HRODST_Helmet_Abbadon
+                {
+                    label = "ODST";
+                };
+                class PBxtd_Recon_Helmet_Abbadon
+                {
+                    label = "Recon";
+                };
+                class PBxtd_CH252_Helmet_Abbadon
+                {
+                    label = "Marine";
+                };
             };
         };
         class PB_Asmo_Helmets   
@@ -149,6 +246,18 @@ class XtdGearModels
                 {
                     "ODST",
                     "MP"
+                };
+                class PBxtd_HRODST_Helmet_Asmodeus
+                {
+                    label = "ODST";
+                };
+                class PBxtd_MP_Helmet_Asmodeus
+                {
+                    label = "MP";
+                };
+                class PBxtd_CH252_Helmet_Asmodeus
+                {
+                    label = "Marine";
                 };
             };
         };
@@ -171,6 +280,34 @@ class XtdGearModels
                     "ODST",
                     "Pilot"
                 };
+                class PBxtd_AA_Helmet_Azazel
+                {
+                    label = "AA";
+                };
+                class PBxtd_HREOD_Helmet_Azazel
+                {
+                    label = "EOD Reach";
+                };
+                class PBxtd_EVA_Helmet_Azazel
+                {
+                    label = "EVA";
+                };
+                class PBxtd_Grenadier_Helmet_Azazel
+                {
+                    label = "Grenadier";
+                };
+                class PBxtd_HRODST_Helmet_Azazel
+                {
+                    label = "ODST";
+                };
+                class PBxtd_Pilot_Helmet_Azazel
+                {
+                    label = "Pilot";
+                };
+                class PBxtd_CH252_Helmet_Azazel
+                {
+                    label = "Marine";
+                };
             };
         };
         class PB_Belphegor_Helmets   
@@ -186,6 +323,14 @@ class XtdGearModels
                 values[] =
                 {
                     "ODST"
+                };
+                class PBxtd_HRODST_Helmet_Belphegor
+                {
+                    label = "ODST";
+                };
+                class PBxtd_CH252_Helmet_Belphegor
+                {
+                    label = "Marine";
                 };
             };
         };
@@ -204,6 +349,18 @@ class XtdGearModels
                     "EVA",
                     "ODST"
                 };
+                class PBxtd_EVA_Helmet_Cerberus
+                {
+                    label = "EVA";
+                };
+                class PBxtd_HRODST_Helmet_Cerberus
+                {
+                    label = "ODST";
+                };
+                class PBxtd_CH252_Helmet_Cerberus
+                {
+                    label = "Marine";
+                };
             };
         };
         class PB_Leviathan_Helmets   
@@ -221,6 +378,18 @@ class XtdGearModels
                     "Marine",
                     "EVA",
                     "ODST"
+                };
+                class PBxtd_EVA_Helmet_Leviathan
+                {
+                    label = "EVA";
+                };
+                class PBxtd_HRODST_Helmet_Leviathan
+                {
+                    label = "ODST";
+                };
+                class PBxtd_CH252_Helmet_Leviathan
+                {
+                    label = "Marine";
                 };
             };
         };
@@ -241,6 +410,30 @@ class XtdGearModels
                     "ODST",
                     "Recon",
                     "Scout"
+                };
+                class PBxtd_EVA_Helmet_Lilith
+                {
+                    label = "EVA";
+                };
+                class PBxtd_Grenadier_Helmet_Lilith
+                {
+                    label = "Grenadier";
+                };
+                class PBxtd_HRODST_Helmet_Lilith
+                {
+                    label = "ODST";
+                };
+                class PBxtd_Recon_Helmet_Lilith
+                {
+                    label = "Recon";
+                };
+                class PBxtd_Reach_Scout_Helmet_Lilith
+                {
+                    label = "Scout Reach";
+                };
+                class PBxtd_CH252_Helmet_Lilith
+                {
+                    label = "Marine";
                 };
             };
         };
@@ -270,6 +463,62 @@ class XtdGearModels
                     "Recon",
                     "Scout"
                 };
+                class PBxtd_AA_Helmet_Lucifer
+                {
+                    label = "AA";
+                };
+                class PBxtd_Commando_Helmet_Lucifer
+                {
+                    label = "Commando";
+                };
+                class PBxtd_CQC_Helmet_Lucifer
+                {
+                    label = "CQC";
+                };
+                class PBxtd_HREOD_Helmet_Lucifer
+                {
+                    label = "EOD Reach";
+                };
+                class PBxtd_EVA_Helmet_Lucifer
+                {
+                    label = "EVA";
+                };
+                class PBxtd_Grenadier_Helmet_Lucifer
+                {
+                    label = "Grenadier";
+                };
+                class PBxtd_Gungnir_Helmet_Lucifer
+                {
+                    label = "Gungnir";
+                };
+                class PBxtd_HRODST_Helmet_Lucifer
+                {
+                    label = "ODST";
+                };
+                class PBxtd_JFO_Helmet_Lucifer
+                {
+                    label = "JFO";
+                };
+                class PBxtd_MP_Helmet_Lucifer
+                {
+                    label = "MP";
+                };
+                class PBxtd_Pilot_Helmet_Lucifer
+                {
+                    label = "Pilot";
+                };
+                class PBxtd_Recon_Helmet_Lucifer
+                {
+                    label = "Recon";
+                };
+                class PBxtd_Reach_Scout_Helmet_Lucifer
+                {
+                    label = "Scout Reach";
+                };
+                class PBxtd_CH252_Helmet_Base_Lucifer
+                {
+                    label = "Marine";
+                };
             };
         };
         class PB_Mammon_Helmets   
@@ -285,6 +534,14 @@ class XtdGearModels
                 values[] =
                 {
                     "ODST"
+                };
+                class PBxtd_HRODST_Helmet_Mammon
+                {
+                    label = "ODST";
+                };
+                class PBxtd_CH252_Helmet_Base_Mammon
+                {
+                    label = "Marine";
                 };
             };
         };
@@ -432,29 +689,6 @@ class XtdGearModels
 
 
         };
-      class PB_Standard_Vests
-        {
-            label="[F66th] M56 Standard Vests";
-            author="F66th Pebbles";
-            options[]=
-            {
-                "Variant"
-            };
-            class Variant
-            {
-                values[] =
-                {
-                    "M56R",
-                    "M56R_Recon",
-                    "M56R_Light",
-                    "M56R_Radio",
-                    "M56R_CQB",
-                    "M56R_Sniper"
-                };
-            };
-
-
-        };
      class PB_Belphegor_Vests
         {
             label="[F66th] M56 Belphegor Vests";
@@ -550,29 +784,6 @@ class XtdGearModels
      class PB_Lucifer_Vests
         {
             label="[F66th] M56 Lucifer Vests";
-            author="F66th Pebbles";
-            options[]=
-            {
-                "Variant"
-            };
-            class Variant
-            {
-                values[] =
-                {
-                    "M56R",
-                    "M56R_Recon",
-                    "M56R_Light",
-                    "M56R_Radio",
-                    "M56R_CQB",
-                    "M56R_Sniper"
-                };
-            };
-
-
-        };
-      class PB_Standard_Vests
-        {
-            label="[F66th] M56 Standard Vests";
             author="F66th Pebbles";
             options[]=
             {

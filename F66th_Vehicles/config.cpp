@@ -509,6 +509,32 @@ class CfgVehicles
 		editorCategory = "PB_Bluefor_F";
 		editorSubcategory = "EdSubcat_Tanks";
 
+		//test
+
+		hasDriver = -1;
+
+		forceInGarage = 1;
+		weapons[] = { "CMFlareLauncher","SmokeLauncher","Laserdesignator_pilotCamera" };
+		magazines[] = { "168Rnd_CMFlare_Chaff_Magazine","168Rnd_CMFlare_Chaff_Magazine","Laserbatteries","SmokeLauncherMag","SmokeLauncherMag","SmokeLauncherMag","SmokeLauncherMag","SmokeLauncherMag","SmokeLauncherMag","SmokeLauncherMag","SmokeLauncherMag" };
+		tf_hasLRradio = 1;
+		tf_isolatedAmount = 0.65;
+		tf_range = 120000;
+		ejectDamageLimit = 0.99;
+		smokeLauncherAngle = 360;
+		smokeLauncherGrenadeCount = 16;
+		smokeLauncherOnTurret = 1;
+		smokeLauncherVelocity = 14;
+		irScanGround = 0;
+		irScanRangeMax = 10000;
+		irScanRangeMin = 2000;
+		irScanToEyeFactor = 2;
+		radarType = 2;
+		reportRemoteTargets = 1;
+		receiveRemoteTargets = 1;
+		incomingMissileDetectionSystem = 16;
+		LockDetectionSystem = 16;
+
+
 		armor = 1275;
 	};
 

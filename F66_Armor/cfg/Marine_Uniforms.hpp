@@ -1,3 +1,9 @@
+class U_B_CombatUniform_mcam;
+class UniformItem;
+class Uniform_Base : ItemCore
+{
+    class ItemInfo;
+};
 /// Innie BDU
 class PB_Innie_BDU_Light: U_B_CombatUniform_mcam
 {
