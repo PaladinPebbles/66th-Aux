@@ -3300,3 +3300,56 @@ class PB_Spartan_Helmet_Base : ItemCore
         uniformModel = "MA_Armor\data\Helmets\H4_Scout\H4_Scout_Helmet.p3d";
     };
     };
+
+
+    class NVGoggles;
+    class G_Spectacles;
+    class PB_EOD_CBRN_Chronos_NVG : NVGoggles
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        author = "F66th Pebbles";
+        displayName = "[F66th] Chronos CBRN Attachment (NVG)";
+        model = "MA_Armor\data\Attachments\EOD_CBRN\EOD_CBRN.p3d";
+        hiddenSelections[] =
+        {
+            "Camo1"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\Hellwalkers\CustomGear\Chronos\Chronos_CBRN_CO.paa";
+        };
+        class ItemInfo
+        {
+            type = 616;
+            hmdType = 3;
+            uniformModel = "MA_Armor\data\Attachments\EOD_CBRN\EOD_CBRN.p3d";
+            modelOff = "MA_Armor\data\Attachments\EOD_CBRN\EOD_CBRN.p3d";
+            mass = 1;
+            hiddenSelections[] =
+            {
+                "camo1"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "F66th_Armor\Hellwalkers\CustomGear\Chronos\Chronos_CBRN_CO.paa";
+            };
+        };
+    };
+    class MA_EOD_CBRN_Facewear_Attachment : G_Spectacles
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        author = "Trim";
+        identitytypes[] = {};
+        displayName = "[66th] Abbadon CBRN Attachment";
+        model = "MA_Armor\data\Attachments\EOD_CBRN\EOD_CBRN.p3d";
+        hiddenSelections[] =
+        {
+            "Camo1"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\Hellwalkers\CustomGear\Chronos\Chronos_CBRN_CO.paa";
+        };
+    };

@@ -452,7 +452,7 @@ class PB_M56S_Rucksack_Trim_Radio : PB_M56S_Rucksack_Radio
         "F66th_Armor\Hellwalkers\Backpacks\Trim_Backpack_CO.paa"
     };
 };
-class PB_M56S_Rucksack_Trim_Radio : PB_M56S_Rucksack_Radio
+class PB_M56S_Rucksack_Nyquil_Radio : PB_M56S_Rucksack_Radio
 {
     displayName = "[F66th] pack of Nyquil";
     hiddenSelections[] =
@@ -552,6 +552,23 @@ class PB_M56S_Rucksack_Revan_Radio : PB_M56S_Rucksack_Radio
         "F66th_Armor\Hellwalkers\Backpacks\Revan_Backpack_CO.paa",
         "F66th_Armor\Hellwalkers\Backpacks\Attachments\Backpack_Radio_ODST_co.paa",
         "F66th_Armor\Hellwalkers\Backpacks\Revan_Backpack_CO.paa"
+    };
+};
+class PB_M56S_Rucksack_Chronos_Radio : PB_M56S_Rucksack_Radio
+{
+    displayName = "[F66th] Radio Chronos";
+    hiddenSelections[] =
+    {
+        "camo1", // Bag
+        "camo2", // Radio
+        "camo3", // Straps
+        //      "Radio"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Backpacks\Chronos_Backpack_CO.paa",
+        "F66th_Armor\Hellwalkers\Backpacks\Attachments\Backpack_Radio_ODST_co.paa",
+        "F66th_Armor\Hellwalkers\Backpacks\Chronos_Backpack_CO.paa"
     };
 };
 class PB_M56S_Rucksack_Angelic_Radio : PB_M56S_Rucksack_Radio

@@ -8,6 +8,15 @@ class CfgPatches
 			"PB_M511_Springbok_MGS",
 			"PB_M511_Springbok_AA",
 			"PB_M511_Springbok_IFV",
+			"PB_Silverback_Armored_MG",
+			"PB_Silverback_Armored_TOW",
+			"PB_Bulldog_AGL",
+			"PB_Bulldog_MG",
+			"PB_Falcon_Support_DAP",
+			"PB_Pelican_D77TC",
+			"PB_Nightingale_Resupply",
+			"PB_Basilisk_155mm",
+			"PB_MBT",
 		};
 		weapons[] = {};
 		requiredVersion = 1.62;

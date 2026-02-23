@@ -608,15 +608,12 @@ class CfgVehicles
 			"\F66th_Vehicles\data\Basilisk\camonet_greenbeige_co.paa"
 		};
 		textureList[] = {"color66th",1};
-
 	};
 
 
 
 
 };
-
-
 
 
 

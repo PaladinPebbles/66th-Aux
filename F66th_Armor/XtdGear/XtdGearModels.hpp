@@ -98,6 +98,7 @@ class XtdGearModels
                 values[] =
                 {
                     "Ahriman",
+                    "Chronos",
                     "Fixer",
                     "Komoto",
                     "Nyquil",
@@ -109,6 +110,10 @@ class XtdGearModels
                 class PB_Ahriman
                 {
                     name = "Ahriman";
+                };
+                class PB_Chronos
+                {
+                    name = "Chronos";
                 };
                 class PB_Fixer
                 {
