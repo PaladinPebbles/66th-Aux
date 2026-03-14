@@ -89,7 +89,27 @@ class CfgVehicleCLasses
         scopeCurator=2;
 	};
 };
-
+class CfgGlasses
+{
+    class G_Spectacles;
+    class PB_EOD_CBRN_Facewear_Attachment : G_Spectacles
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        author = "Trim";
+        identitytypes[] = {};
+        displayName = "[66th] Abbadon CBRN Attachment";
+        model = "MA_Armor\data\Attachments\EOD_CBRN\EOD_CBRN.p3d";
+        hiddenSelections[] =
+        {
+            "Camo1"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\Hellwalkers\CustomGear\Chronos\Chronos_CBRN_CO.paa";
+        };
+    };
+};
 class CfgVehicles
 {
     // Backpacks
