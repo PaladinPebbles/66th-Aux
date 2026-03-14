@@ -2433,6 +2433,98 @@ class PB_Spartan_Helmet_Base : ItemCore
         uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
     };
     };
+    class PB_King_Scout_Helmet : PB_Helmet_Base
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        displayName = "[F66th] King's Crown";
+        model = "MA_Armor\data\Helmets\H4_Scout\H4_Scout_Helmet.p3d";
+        picture = "\F66th_Armor\data\Icons\F66th.paa"; //TODO: Update this
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\Hellwalkers\CustomGear\Trim\NotTrim_H4scout_CO.paa",
+            "F66th_Armor\Hellwalkers\CustomGear\Trim\NotTrim_H4scout_Visor_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\H4_Scout\H4_Scout_Helmet.p3d";
+        };
+    };
+    class PB_EVA_Helmet_Angelic : PB_Spartan_Helmet_Base
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        displayName = "[F66th] Angel EVA";
+        model = "MA_Armor\data\Helmets\EVA\EVA_Helmet.p3d";
+        hiddenSelections[] =
+        {
+            "Camo1",
+            "Camo2"
+        };
+        hiddenSelectionsTextures[] =
+        {
+        "F66th_Armor\OtherFactions\AladsAngels\Helmets\Angelic_EVA_Helmet_CO.paa",
+        "F66th_Armor\OtherFactions\AladsAngels\Helmets\Angelic_EVA_Visor_co.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\EVA\EVA_Helmet.p3d";
+        };
+    };
+    class PB_HREOD_Helmet_Angelic : PB_HREOD_Helmet
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        displayName = "[F66th] Evil EOD";
+        model = "MA_Armor\data\Helmets\HR_EOD\HR_EOD_Helmet.p3d";
+        hiddenSelections[] =
+        {
+            "Camo1",
+            "Camo2"
+        };
+        hiddenSelectionsTextures[] =
+        {
+        "F66th_Armor\OtherFactions\AladsAngels\Helmets\Angelic_EOD_Helmet_CO.paa",
+        "F66th_Armor\OtherFactions\AladsAngels\Helmets\Angelic_EOD_Visor_co.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\HR_EOD\HR_EOD_Helmet.p3d";
+        };
+    };
+    class PB_EOD_CBRN_Angel_NVG : NVGoggles
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        author = "F66th Pebbles";
+        displayName = "[F66th] Angel CBRN Attachment (NVG)";
+        model = "MA_Armor\data\Attachments\EOD_CBRN\EOD_CBRN.p3d";
+        hiddenSelections[] =
+        {
+            "Camo1"
+        };
+        hiddenSelectionsTextures[] =
+        {
+                "F66th_Armor\OtherFactions\AladsAngels\Evil_CBRN_CO.paa"
+        };
+        class ItemInfo
+        {
+            type = 616;
+            hmdType = 0;
+            uniformModel = "MA_Armor\data\Attachments\EOD_CBRN\EOD_CBRN.p3d";
+            modelOff = "MA_Armor\data\Attachments\EOD_CBRN\EOD_CBRN.p3d";
+            mass = 1;
+            hiddenSelections[] =
+            {
+                "camo1"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "F66th_Armor\Hellwalkers\CustomGear\Chronos\Chronos_CBRN_CO.paa"
+            };
+        };
+    };
+
 
     /// Red Wake
     class PB_CH252_Helmet_Standard_Innie: PB_CH252_Helmet_Base
@@ -3320,7 +3412,7 @@ class PB_Spartan_Helmet_Base : ItemCore
         };
         class ItemInfo
         {
-            type = 4096;
+            type = 616;
             hmdType = 0;
             uniformModel = "MA_Armor\data\Attachments\EOD_CBRN\EOD_CBRN.p3d";
             modelOff = "MA_Armor\data\Attachments\EOD_CBRN\EOD_CBRN.p3d";

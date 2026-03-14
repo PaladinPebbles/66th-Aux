@@ -574,6 +574,7 @@ class PB_M56S_Rucksack_Chronos_Radio : PB_M56S_Rucksack_Radio
 class PB_M56S_Rucksack_Angelic_Radio : PB_M56S_Rucksack_Radio
 {
     displayName = "[F66th] Radio Angelic";
+    maximumLoad = 550;
     hiddenSelections[] =
     {
         "camo1", // Bag
@@ -586,5 +587,22 @@ class PB_M56S_Rucksack_Angelic_Radio : PB_M56S_Rucksack_Radio
         "F66th_Armor\Hellwalkers\Backpacks\Angelic_Backpack_CO.paa",
         "F66th_Armor\Hellwalkers\Backpacks\Attachments\Backpack_Radio_ODST_co.paa",
         "F66th_Armor\Hellwalkers\Backpacks\Angelic_Backpack_CO.paa"
+    };
+};
+class PB_M56S_Rucksack_King_Radio : PB_M56S_Rucksack_Radio
+{
+    displayName = "[F66th] Eldritch Satchel";
+    hiddenSelections[] =
+    {
+        "camo1", // Bag
+        "camo2", // Radio
+        "camo3", // Straps
+        //      "Radio"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Backpacks\NotTrim_Backpack_CO.paa",
+        "F66th_Armor\Hellwalkers\Backpacks\Attachments\Backpack_Radio_ODST_co.paa",
+        "F66th_Armor\Hellwalkers\Backpacks\NotTrim_Backpack_CO.paa"
     };
 };

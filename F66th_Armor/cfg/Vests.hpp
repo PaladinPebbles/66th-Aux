@@ -1356,6 +1356,72 @@ class PB_Angelic_M56R_Vest : PB_Vest_Base
         };
     };
 };
+class PB_Kings_CQB_Vest : PB_M56R_Vest
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] The Kings's Finest";
+    model = "MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+    picture = "\PB_Armor\data\Icons\F66th.paa";
+    hiddenSelectionsTextures[] =
+    {
+            "F66th_Armor\Hellwalkers\Vests\Base\Upper_M56_CO.paa",       //camo1 (H3 Upper Armor)
+            "F66th_Armor\Hellwalkers\Vests\Base\Lower_M56_CO.paa",       //camo2 (H3 Lower Armor)
+            "F66th_Armor\Hellwalkers\Vests\Base\Pouch_CO.paa",//camo3 (Thigh Pouch)
+            "F66th_Armor\Hellwalkers\CustomGear\Trim\NotTrim_Upper_R_co.paa",    //camo4 (Reach Upper Armor)
+            "F66th_Armor\Hellwalkers\CustomGear\Trim\NotTrim_Lower_R_co.paa",    //camo5 (Reach Lower Armor)
+            "F66th_Armor\Hellwalkers\Vests\Base\Canisters_CO.paa",      //camo6 (Canisters)
+            "F66th_Armor\Hellwalkers\Vests\Base\Vents_CO.paa",   //camo7 (Forearm Vents)
+            "F66th_Armor\Hellwalkers\Vests\Base\Sniper_co.paa", //camo8 (Sniper Shoulders)
+            "F66th_Armor\Hellwalkers\CustomGear\Trim\NotTrim_CQB_co.paa",  //camo9 (CQB Shoulders)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
+    };
+    class XtdGearInfo
+    {
+
+    };
+    class ItemInfo : ItemInfo
+    {
+        vestType = "Rebreather";
+        uniformModel = "MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+        containerClass = "Supply200";
+        hiddenSelections[] =
+        {
+              "camo1",
+              "camo2",
+              "camo3",
+              "camo4",
+              "camo5",
+              "camo6",
+              "camo7",
+              "camo8",
+              "camo9",
+              "camo10",
+              "H3_Forearm_Left",
+              "H3_Forearm_Right",
+              //              "Reach_Forearm_Left",
+              //              "Reach_Forearm_Right",
+                            "H3_Pauldron_Left",
+                            "H3_Pauldron_Right",
+                            "Reach_Pauldron_Left",
+                            "Reach_Pauldron_Right",
+                            "Reach_Shoulder_Radio_Left",
+                            "Reach_Shoulder_Radio_Right",
+                            "Reach_Sniper_Pauldron_Left",
+                            "Reach_Sniper_Pauldron_Right",
+                            //              "Reach_CQB_Pauldron_Left",
+                            //              "Reach_CQB_Pauldron_Right",
+                                          "Thigh_Pouch",
+                                          "H3_Armor_Upper",
+                                          "H3_Armor_Lower",
+                                          //              "Reach_Armor_Upper",
+                                          //              "Reach_Armor_Lower",
+                                          //              "Forearm_Vent_Left",
+                                          //              "Forearm_Vent_Right",
+                                          //              "Canisters"
+        };
+    };
+};
 
 //Abbadon
 class PB_Abbadon_M56R_Vest : PB_Vest_Base
