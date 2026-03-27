@@ -1,4 +1,4 @@
-class XtdGearModels
+class XtdGearModels 
 {
     class CfgWeapons
     {
@@ -29,7 +29,8 @@ class XtdGearModels
                     "Pebbles",
                     "Reaper",
                     "Spinny",
-                    "Trim"
+                    "Trim",
+                    "Wren"
                 };
                 class PB_Ahriman_Helmet
                 {
@@ -83,6 +84,11 @@ class XtdGearModels
                 {
                     name = "Trim";
                 };
+                class PB_Wren_Helmet
+                {
+                    name = "Wren";
+                };
+
             };
         };
             class PB_Custom_Vests
@@ -286,7 +292,8 @@ class XtdGearModels
                     "EVA",
                     "Grenadier",
                     "ODST",
-                    "Recon"
+                    "Recon",
+                    "Marine"
                 };
                 class PBxtd_HREOD_Helmet_Abbadon
                 {
@@ -327,7 +334,8 @@ class XtdGearModels
                 values[] =
                 {
                     "ODST",
-                    "MP"
+                    "MP",
+                    "Marine"
                 };
                 class PBxtd_HRODST_Helmet_Asmodeus
                 {
@@ -360,7 +368,8 @@ class XtdGearModels
                     "EVA",
                     "Grenadier",
                     "ODST",
-                    "Pilot"
+                    "Pilot",
+                    "Marine"
                 };
                 class PBxtd_AA_Helmet_Azazel
                 {
@@ -429,7 +438,8 @@ class XtdGearModels
                 values[] =
                 {
                     "EVA",
-                    "ODST"
+                    "ODST",
+                    "Marine"
                 };
                 class PBxtd_EVA_Helmet_Cerberus
                 {
@@ -459,7 +469,8 @@ class XtdGearModels
                 {
                     "Marine",
                     "EVA",
-                    "ODST"
+                    "ODST",
+                    "Marine"
                 };
                 class PBxtd_EVA_Helmet_Leviathan
                 {
@@ -491,7 +502,8 @@ class XtdGearModels
                     "Grenadier",
                     "ODST",
                     "Recon",
-                    "Scout"
+                    "Scout",
+                    "Marine"
                 };
                 class PBxtd_EVA_Helmet_Lilith
                 {
@@ -543,7 +555,8 @@ class XtdGearModels
                     "MP",
                     "Pilot",
                     "Recon",
-                    "Scout"
+                    "Scout",
+                    "Marine"
                 };
                 class PBxtd_AA_Helmet_Lucifer
                 {
@@ -615,7 +628,8 @@ class XtdGearModels
             {
                 values[] =
                 {
-                    "ODST"
+                    "ODST",
+                    "Marine"
                 };
                 class PBxtd_HRODST_Helmet_Mammon
                 {

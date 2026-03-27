@@ -764,8 +764,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     };
     class PB_CH252_Helmet_Abbadon : PB_Helmet_Base
     {
-        scope = 1;
-        scopeArsenal = 1;
+        scope = 2;
+        scopeArsenal = 2;
         displayName = "[F66th] Innie CH252 Helmet";
         model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
         picture = ""; //TODO: Update this
@@ -792,15 +792,14 @@ class PB_Spartan_Helmet_Base : ItemCore
         };
         hiddenSelectionsTextures[] =
         {
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+            "F66th_Armor\Hellwalkers\Helmets\Abbadon\Abbadon_Marine.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Abbadon\Abbadon_Marine.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Abbadon\Abbadon_Marine.paa",
+            "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
         };
         class ItemInfo : ItemInfo
         {
@@ -903,8 +902,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     };
     class PB_CH252_Helmet_Asmodeus : PB_Helmet_Base
     {
-        scope = 1;
-        scopeArsenal = 1;
+        scope = 2;
+        scopeArsenal = 2;
         displayName = "[F66th] Innie CH252 Helmet";
         model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
         picture = ""; //TODO: Update this
@@ -931,15 +930,14 @@ class PB_Spartan_Helmet_Base : ItemCore
         };
         hiddenSelectionsTextures[] =
         {
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+            "F66th_Armor\Hellwalkers\Helmets\Asmo\Asmodeus_Marine.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Asmo\Asmodeus_Marine.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Asmo\Asmodeus_Marine.paa",
+            "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
         };
         class ItemInfo : ItemInfo
         {
@@ -980,7 +978,7 @@ class PB_Spartan_Helmet_Base : ItemCore
         };
         class XtdGearInfo
         {
-            model = "PB_Asmodeus_Helmets";
+            model = "PB_Asmo_Helmets";
             Variant = "Marine";
         };
     };
@@ -1146,8 +1144,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     };
     class PB_CH252_Helmet_Azazel : PB_Helmet_Base
     {
-        scope = 1;
-        scopeArsenal = 1;
+        scope = 2;
+        scopeArsenal = 2;
         displayName = "[F66th] Innie CH252 Helmet";
         model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
         picture = ""; //TODO: Update this
@@ -1174,15 +1172,14 @@ class PB_Spartan_Helmet_Base : ItemCore
         };
         hiddenSelectionsTextures[] =
         {
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+            "F66th_Armor\Hellwalkers\Helmets\Azazel\Azazel_Marine.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Azazel\Azazel_Marine.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Azazel\Azazel_Marine.paa",
+            "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
         };
         class ItemInfo : ItemInfo
         {
@@ -1259,8 +1256,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     };
     class PB_CH252_Helmet_Belphegor : PB_Helmet_Base
     {
-        scope = 1;
-        scopeArsenal = 1;
+        scope = 2;
+        scopeArsenal = 2;
         displayName = "[F66th] Innie CH252 Helmet";
         model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
         picture = ""; //TODO: Update this
@@ -1287,9 +1284,9 @@ class PB_Spartan_Helmet_Base : ItemCore
         };
         hiddenSelectionsTextures[] =
         {
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Belphegor\Belphegor_Marine.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Belphegor\Belphegor_Marine.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Belphegor\Belphegor_Marine.paa",
             "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
             "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
             "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
@@ -1398,8 +1395,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     };
     class PB_CH252_Helmet_Cerberus : PB_Helmet_Base
     {
-        scope = 1;
-        scopeArsenal = 1;
+        scope = 2;
+        scopeArsenal = 2;
         displayName = "[F66th] Innie CH252 Helmet";
         model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
         picture = ""; //TODO: Update this
@@ -1426,15 +1423,14 @@ class PB_Spartan_Helmet_Base : ItemCore
         };
         hiddenSelectionsTextures[] =
         {
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+            "F66th_Armor\Hellwalkers\Helmets\Cerberus\Cerb_Marine.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Cerberus\Cerb_Marine.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Cerberus\Cerb_Marine.paa",
+            "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
         };
         class ItemInfo : ItemInfo
         {
@@ -1754,8 +1750,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     };
     class PB_CH252_Helmet_Lilith : PB_Helmet_Base
     {
-        scope = 1;
-        scopeArsenal = 1;
+        scope = 2;
+        scopeArsenal = 2;
         displayName = "[F66th] Innie CH252 Helmet";
         model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
         picture = ""; //TODO: Update this
@@ -1782,15 +1778,14 @@ class PB_Spartan_Helmet_Base : ItemCore
         };
         hiddenSelectionsTextures[] =
         {
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+            "F66th_Armor\Hellwalkers\Helmets\Lilith\Lilith_Marine.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Lilith\Lilith_Marine.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Lilith\Lilith_Marine.paa",
+            "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
         };
         class ItemInfo : ItemInfo
         {
@@ -2179,8 +2174,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     };
     class PB_CH252_Helmet_Lucifer : PB_Helmet_Base
     {
-        scope = 1;
-        scopeArsenal = 1;
+        scope = 2;
+        scopeArsenal = 2;
         displayName = "[F66th] Innie CH252 Helmet";
         model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
         picture = ""; //TODO: Update this
@@ -2207,15 +2202,14 @@ class PB_Spartan_Helmet_Base : ItemCore
         };
         hiddenSelectionsTextures[] =
         {
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+            "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_Marine.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_Marine.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Lucifer\Lucifer_Marine.paa",
+            "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
         };
         class ItemInfo : ItemInfo
         {
@@ -2292,8 +2286,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     };
     class PB_CH252_Helmet_Mammon : PB_Helmet_Base
     {
-        scope = 1;
-        scopeArsenal = 1;
+        scope = 2;
+        scopeArsenal = 2;
         displayName = "[F66th] Innie CH252 Helmet";
         model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
         picture = ""; //TODO: Update this
@@ -2320,15 +2314,14 @@ class PB_Spartan_Helmet_Base : ItemCore
         };
         hiddenSelectionsTextures[] =
         {
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "F66th_Armor\OtherFactions\RedWake\Helmet\PB_Innie_TrooperHelmet_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_Marine.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_Marine.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_Marine.paa",
+            "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
         };
         class ItemInfo : ItemInfo
         {
@@ -3392,6 +3385,33 @@ class PB_Spartan_Helmet_Base : ItemCore
         uniformModel = "MA_Armor\data\Helmets\H4_Scout\H4_Scout_Helmet.p3d";
     };
     };
+    class PB_Wren_AA_Helmet : PB_Spartan_Helmet_Base
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        displayName = "[F66th] Wren AA";
+        model = "MA_Armor\data\Helmets\Mjolnir_AA\Mjolnir_AA.p3d";
+        hiddenSelections[] =
+        {
+            "Camo1",
+            "Camo2"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\Hellwalkers\CustomGear\Wren\Wren_AA_CO.paa",
+            "F66th_Armor\Hellwalkers\CustomGear\Wren\Wren_AA_Visor_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\Mjolnir_AA\Mjolnir_AA.p3d";
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Custom_Helmets";
+            Variant = "Wren";
+        };
+    };
+
 
 
     class NVGoggles;
